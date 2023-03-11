@@ -10,7 +10,8 @@ const UserDashboard = () => {
     <>
       <div className="flex font-poppins ">
         <Sidebar />
-        <div className="bg-purple/80 w-full pl-[20%] mx-auto items-center justify-center flex">
+        
+        <div className="bg-white w-full pl-[20%] mx-auto items-center justify-center flex">
           <div className="flex flex-col text-center w-4/5 shadow-2xl p-12">
             <div className="m-auto">
               <form className="max-w-sm px-4">
