@@ -79,7 +79,7 @@ export default function Navbar() {
               </a>
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-900"
               >
                 Sign up
               </a>
@@ -89,13 +89,13 @@ export default function Navbar() {
         <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-white bg-teal rounded-md shadow hover:bg-gray-800"
+            className="px-5 py-2 text-white bg-[#4E31AA] rounded-md shadow hover:bg-gray-800"
           > 
             Sign in
           </a>
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-100"
+            className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-600"
           >
             Sign up
           </a>
