@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "../components/Carousel";
 import CarouselComp from "../components/CarouselComp";
 import Navbar from "../components/Navbar";
+import j4 from "../assets/j4.gif";
 
 const Landing = () => {
   const compGuide = [
@@ -38,35 +39,35 @@ const Landing = () => {
         <div className="h-screen flex bg-purple items-center">
           <div className="flex flex-col gap-y-5">
             <div className="justify-center w-1/2 mx-auto font-semibold text-6xl text-white">
-              Lorem ipsum dolor sit amet.
+            GET YOUR DREAM JOB TODAY
             </div>
             <p className="justify-center w-1/2 mx-auto font-medium text-sm text-white py-5">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequuntur architecto qui ab at necessitatibus maxime
-              exercitationem? Accusantium fuga libero ipsam numquam! Doloribus,
-              laborum neque quidem ad quas dicta voluptatibus consectetur harum
-              ut? Expedita, ex ea?
+            Welcome to our job portal, where we connect talented individuals 
+            with top employers across various industries. As a job seeker, you 
+            can browse through our extensive database of job listings and apply 
+            for positions that match your skills and interests. Our user-friendly 
+            platform allows you to filter jobs by location, industry, job type, 
+            and salary range to help you find the perfect job. 
             </p>
             <button className="px-6 py-3 text-white bg-teal rounded-md shadow hover:bg-gray-800 mx-auto">
               Get Started
             </button>
           </div>
-          <img src="/assets/hero.jpg" className="w-1/2 h-3/5 justify-center" />
+          <img src={j4} alt="job" className="h-96 mr-[105px] rounded-xl shadow-x"/>
         </div>
         <div className="w-3/5 mx-auto">{/* <CarouselComp /> */}</div>
         <p className="text-5xl font-bold text-darkPurple w-4/5 my-10 text-center mx-auto ">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
-          laboriosam.
+        Direct Hiring App for Founders,  Team Leaders and Hiring Managers
         </p>
         <div className="flex py-10 bg-white w-full ">
           <ol class="relative border-l border-gray-200 mx-auto">
             <li class="mb-10 ml-4 ">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-lg font-normal leading-none text-purple">
+              {/* <time class="mb-1 text-lg font-normal leading-none text-purple">
                 February 2022
-              </time>
+              </time> */}
               <h3 class="text-xl font-semibold text-lightPurple">
-                Application UI code in Tailwind CSS
+                REGISTER
               </h3>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 Get access to over 20+ pages including a dashboard layout,
@@ -94,11 +95,11 @@ const Landing = () => {
             </li>
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              {/* <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 March 2022
-              </time>
+              </time> */}
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                Marketing UI design in Figma
+                APPLY
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
                 All of the pages and components are first designed in Figma and
@@ -108,11 +109,11 @@ const Landing = () => {
             </li>
             <li class="ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              {/* <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 April 2022
-              </time>
+              </time> */}
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                E-Commerce UI code in Tailwind CSS
+                GET YOUR DREAM JOB
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
                 Get started with dozens of web components and interactive
