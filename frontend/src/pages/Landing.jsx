@@ -49,7 +49,7 @@ const Landing = () => {
             platform allows you to filter jobs by location, industry, job type, 
             and salary range to help you find the perfect job. 
             </p>
-            <button className="px-6 py-3 text-white bg-teal rounded-md shadow hover:bg-gray-800 mx-auto">
+            <button className="px-6 py-3 text-[#4E31AA] bg-[#FFFFFF] rounded-md shadow hover:bg-gray-800 mx-auto hover:text-[#FFFFFF]">
               Get Started
             </button>
           </div>
@@ -66,15 +66,15 @@ const Landing = () => {
               {/* <time class="mb-1 text-lg font-normal leading-none text-purple">
                 February 2022
               </time> */}
-              <h3 class="text-xl font-semibold text-lightPurple">
+              <h3 class="text-xl font-semibold text-gray-900 hover:text-[#4E31AA]" >
                 REGISTER
               </h3>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 ">
                 Get access to over 20+ pages including a dashboard layout,
                 charts, kanban board, calendar, and pre-order E-commerce &
                 Marketing pages.
               </p>
-              <a
+              {/* <a
                 href="#"
                 class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-teal dark:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
@@ -91,14 +91,14 @@ const Landing = () => {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-              </a>
+              </a> */}
             </li>
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               {/* <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 March 2022
               </time> */}
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white hover:text-[#4E31AA]">
                 APPLY
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -112,7 +112,7 @@ const Landing = () => {
               {/* <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 April 2022
               </time> */}
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white hover:text-[#4E31AA]">
                 GET YOUR DREAM JOB
               </h3>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -124,32 +124,19 @@ const Landing = () => {
           <img />
         </div>
         <div className="flex flex-col bg-purple items-center py-16">
-          <div className="flex items-center ">
-            <p className="text-4xl font-extrabold text-white mr-72">
-              Companies can register here
+          <div className="flex items-center justify-center mr-0">
+            <p className="text-4xl font-extrabold text-white">
+              Our Top Recuriters
             </p>
-            <button className="bg-teal rounded-md font-medium text-lg text-white px-3 py-2">
+            {/* <button className="bg-teal rounded-md font-medium text-lg text-white px-3 py-2">
               For Companies
-            </button>
+            </button> */}
           </div>
           <div className="grid grid-cols-4 gap-x-3 w-4/5 my-10">
             {compGuide.map((data) => {
               return (
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                  <svg
-                    class="w-10 h-10 mb-2 text-gray-500 dark:text-gray-400"
-                    aria-hidden="true"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
-                      clip-rule="evenodd"
-                    ></path>
-                    <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z"></path>
-                  </svg>
+                <div class="max-w-sm p-6 flex flex-col justify-between bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
                   <a href="#">
                     <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                       {data.title}
@@ -533,7 +520,7 @@ const Landing = () => {
           <p className="text-5xl font-bold text-white w-4/5 my-5 text-center mx-auto">
             Are you wasting time and money on digital promotions?
           </p>
-          <button className="px-6 py-3 text-white bg-teal rounded-md font-bold text-2xl my-5 shadow hover:bg-gray-800 mx-auto">
+          <button className="px-6 py-3 text-[#4E31AA] bg-[#FFFFFF] rounded-md font-bold text-2xl my-5 shadow hover:bg-gray-800 mx-auto hover:text-[#FFFFFF]">
             Get Started
           </button>
         </div>
