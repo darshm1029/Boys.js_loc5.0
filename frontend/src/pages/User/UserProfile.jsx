@@ -46,7 +46,7 @@ export default function Edit(props) {
       <div className="bg-darkPurple w-full flex font-main">
         <Sidebar selected="Profile" />
         {/* Sidebar */}
-        <div className="bg-purple/80 w-full shadow-lg">
+        <div className="bg-purple/80 w-full ml-[14rem] shadow-lg h-screen">
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             {/* Replace with your content */}
             <Header heading="Profile" user="Oda Dink" />
