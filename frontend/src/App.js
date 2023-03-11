@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CompanyDashboard from "./pages/Company/CompanyDashboard";
 import Landing from "./pages/Landing";
 import ExploreJobs from "./pages/User/ExploreJobs";
 import ExplorePeople from "./pages/User/ExplorePeople";
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route path="/userdashboard" element={<UserDashboard />} />
+          <Route path="/companydashboard" element={<CompanyDashboard />} />
           <Route path="/explorepeople" element={<ExplorePeople />} />
           <Route path="/explorejobs" element={<ExploreJobs />} />
           <Route path="/userprofile" element={<UserProfile />} />
