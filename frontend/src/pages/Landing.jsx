@@ -10,7 +10,7 @@ const Landing = () => {
       id: 1,
       title: "Exploring",
       content:
-        "Tokyo is a vibrant city with countless sights and sounds to explore. However, there are also many hidden gems that are off the beaten path. ",
+        "Google is looking for an experienced SDE to design, develop, and maintain complex software systems, collaborate with teams, write clean code, and solve complex problems. A Bachelor's or Master's degree and 3+ years of experience in software development are required.",
     },
     {
       id: 2,
