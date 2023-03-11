@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
-export default function UserProfile(props) {
+export default function Edit(props) {
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
