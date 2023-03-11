@@ -8,16 +8,19 @@ import mongo
 
 def recommend(user, jobType, location, experience):
     df = mongo.getJobs()
-    jobdf = df[(df['type'] == str(jobType)) & (df['minExp'] <= int(experience)) & (
-        (df["location"] == str(location)) | (df["location"] == "Remote"))]
+    jobdf = df[
+        (df["type"] == str(jobType))
+        & (df["minExp"] <= int(experience))
+        & ((df["location"] == str(location)) | (df["location"] == "Remote"))
+    ]
     # print(jobdf.shape)
     # df['combined'] = ""
     indexes = jobdf.index
     # print(indexes[1])
     jobdf.fillna("", inplace=True)
-    jobdf['skills'] = jobdf['skills'].astype('str')
-    jobdf['title'] = jobdf['title'].astype('str')
-    combined = pd.Series(jobdf['title']+" "+jobdf['skills'])
+    jobdf["skills"] = jobdf["skills"].astype("str")
+    jobdf["title"] = jobdf["title"].astype("str")
+    combined = pd.Series(jobdf["title"] + " " + jobdf["skills"])
     # for i, row in jobdf.iterrows():
     #     combined[i] = jobdf['skills']+" "+jobdf['title']
     # combined = pd.Series(combined)
@@ -38,12 +41,12 @@ def recommend(user, jobType, location, experience):
     i = 0
     index = []
     for job in sort:
-        if (job[1] < 0.2):
+        if job[1] < 0.2:
             break
         i = indexes[job[0]]
         index.append(i)
     ids = []
     for i in index:
-        jid = df.loc[i, '_id']
+        jid = df.loc[i, "_id"]
         ids.append(jid["$oid"])
     return ids

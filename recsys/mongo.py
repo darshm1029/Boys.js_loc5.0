@@ -6,7 +6,8 @@ import json
 
 def getJobs():
     client = pymongo.MongoClient(
-        "mongodb+srv://sih2022:nerdjs@cluster0.rzfga8e.mongodb.net/test")
+        "mongodb+srv://sahil123:sahil123@cluster0.xhl0k.mongodb.net/test")
+    
     db = client['test']
     collection = db["jobs"]
     allDocs = collection.find()

@@ -6,12 +6,13 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"
 
 
-@app.route("/rec", methods=['POST'])
+@app.route("/rec", methods=["POST"])
 def rec():
     title = request.headers.get("title")
     skills = request.headers.get("skills")
@@ -29,4 +30,4 @@ def rec():
 
 
 if __name__ == "__main__":
-    app.run(port=7000,debug=True)
+    app.run(port=7000, debug=True)
