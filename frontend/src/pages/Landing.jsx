@@ -4,6 +4,7 @@ import CarouselComp from "../components/CarouselComp";
 import Navbar from "../components/Navbar";
 import j4 from "../assets/j4.gif";
 
+
 const Landing = () => {
   const compGuide = [
     {
@@ -31,6 +32,7 @@ const Landing = () => {
         "The American Southwest is a vast and diverse region with stunning natural beauty and fascinating history. In this blog post, we'll share some of the best road trip routes through the Southwest",
     },
   ];
+
 
   return (
     <>
@@ -60,7 +62,10 @@ const Landing = () => {
             className="h-96 mr-[105px] rounded-xl shadow-x"
           />
         </div>
-        <div className="w-3/5 mx-auto">{/* <CarouselComp /> */}</div>
+        <div className="w-3/5 mx-auto">
+          {/* <CarouselComp /> */}
+          <Carousel />
+        </div>
         <p className="text-5xl font-bold text-darkPurple w-4/5 my-10 text-center mx-auto ">
           Direct Hiring App for Founders, Team Leaders and Hiring Managers
         </p>
@@ -71,7 +76,7 @@ const Landing = () => {
               {/* <time class="mb-1 text-lg font-normal leading-none text-purple">
                 February 2022
               </time> */}
-              <h3 class="text-xl font-semibold text-gray-900 hover:text-[#4E31AA]" >
+              <h3 class="text-xl font-semibold text-gray-900 hover:text-[#4E31AA]">
                 REGISTER
               </h3>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 ">
@@ -141,7 +146,6 @@ const Landing = () => {
             {compGuide.map((data) => {
               return (
                 <div class="max-w-sm p-6 flex flex-col justify-between bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-
                   <a href="#">
                     <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                       {data.title}

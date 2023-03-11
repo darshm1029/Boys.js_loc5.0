@@ -1,0 +1,13 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+    flex: 0 0 calc(100% / 3);
+    height: 400px;
+    display: inline;
+  }
+  
+  
