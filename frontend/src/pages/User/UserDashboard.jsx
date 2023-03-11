@@ -1,4 +1,5 @@
 import React from "react";
+import Calendar from "../../components/Calendar";
 import Sidebar from "./Sidebar";
 
 const UserDashboard = () => {
@@ -6,8 +7,8 @@ const UserDashboard = () => {
     <>
       <div className="flex font-poppins">
         <Sidebar />
-        <div className="bg-gray-400 w-full h-screen items-center justify-center flex">
-          <div className="flex flex-col text-center w-4/5 border">
+        <div className="bg-purple/80 w-full h-screen items-center justify-center flex">
+          <div className="flex flex-col text-center w-4/5 shadow-2xl">
             <div className="m-auto">
               <form className="max-w-sm px-4">
                 <div className="relative">
@@ -33,10 +34,13 @@ const UserDashboard = () => {
                 </div>
               </form>
             </div>
-            <div>
+            <div className="">
 
             </div>
-            <div>scheduled</div>
+            <div className="flex flex-col">
+              <p className="text-5xl font-bold text-darkPurple">Scheduled Meetings</p>
+              <Calendar />
+            </div>
           </div>
         </div>
       </div>

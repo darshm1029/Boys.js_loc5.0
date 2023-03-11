@@ -51,7 +51,7 @@ const Landing = () => {
               Get Started
             </button>
           </div>
-          <img src="/assets/hero.jpg" className="w-1/2 h-3/5 justify-center" />
+          <img src="/assets/hero.jpg" className="w-full h-3/5 justify-center" />
         </div>
         <div className="w-3/5 mx-auto">{/* <CarouselComp /> */}</div>
         <p className="text-5xl font-bold text-darkPurple w-4/5 my-10 text-center mx-auto ">
