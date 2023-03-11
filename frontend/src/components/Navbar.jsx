@@ -4,12 +4,12 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-darkPurple font-poppins shadow fixed">
+    <nav className="w-full bg-dark font-poppins shadow fixed">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 ">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-white">LOGO</h2>
+              <h2 className="text-2xl font-bold text-white">Hireddd</h2>
             </a>
             <div className="md:hidden">
               <button
@@ -95,7 +95,7 @@ export default function Navbar() {
           </a>
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-600"
+            className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-600 hover:text-white"
           >
             Sign up
           </a>
