@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="flex font-poppins">
-      <div className="flex flex-col h-screen py-10 bg-gray-800 shadow-5xl w-64">
+    <div className="flex font-poppins ">
+      <div className="flex flex-col h-screen py-10 bg-darkPurple shadow-5xl w-64">
         <div className="space-y-4">
           <div className="flex items-center text-center">
-            <h2 className="text-xl font-bold text-white text-center items-center mx-auto">Dashboard</h2>
+            <h2 className="text-xl font-bold text-white text-center items-center mx-auto">
+              Dashboard
+            </h2>
           </div>
           <div className="relative mx-3">
             <span className="absolute inset-y-0 left-0 flex items-center py-4 ">
@@ -37,7 +40,7 @@ const Sidebar = () => {
               className="w-full py-2 pl-10 text-sm rounded-md focus:outline-none"
             />
           </div>
-          <div >
+          <div>
             <ul className=" space-y-1 text-lg">
               <li className="rounded-sm ">
                 <a
@@ -61,6 +64,7 @@ const Sidebar = () => {
                   <span className="text-gray-100">Home</span>
                 </a>
               </li>
+
               <li className="rounded-sm">
                 <a
                   href="#"
@@ -80,7 +84,9 @@ const Sidebar = () => {
                       d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
                     />
                   </svg>
-                  <span className="text-gray-100">Explore People</span>
+                  <Link to="/explorepeople">
+                    <span className="text-gray-100">Explore People</span>
+                  </Link>
                 </a>
               </li>
               <li className="rounded-sm">
@@ -102,7 +108,7 @@ const Sidebar = () => {
                       d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
                     />
                   </svg>
-                  <span className="text-gray-100">Explore Jobs</span>
+                 <Link to="/explorejobs"><span className="text-gray-100">Explore Jobs</span></Link>
                 </a>
               </li>
               <li className="rounded-sm">
@@ -129,7 +135,9 @@ const Sidebar = () => {
                       d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span className="text-gray-100">Edit Profile</span>
+                  <Link to="/userprofile">
+                    <span className="text-gray-100">Edit Profile</span>
+                  </Link>
                 </a>
               </li>
               <li className="rounded-sm">
