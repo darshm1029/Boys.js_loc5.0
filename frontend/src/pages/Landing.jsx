@@ -39,25 +39,30 @@ const Landing = () => {
         <div className="h-screen flex bg-purple items-center">
           <div className="flex flex-col gap-y-5">
             <div className="justify-center w-1/2 mx-auto font-semibold text-6xl text-white">
-            GET YOUR DREAM JOB TODAY
+              GET YOUR DREAM JOB TODAY
             </div>
             <p className="justify-center w-1/2 mx-auto font-medium text-sm text-white py-5">
-            Welcome to our job portal, where we connect talented individuals 
-            with top employers across various industries. As a job seeker, you 
-            can browse through our extensive database of job listings and apply 
-            for positions that match your skills and interests. Our user-friendly 
-            platform allows you to filter jobs by location, industry, job type, 
-            and salary range to help you find the perfect job. 
+              Welcome to our job portal, where we connect talented individuals
+              with top employers across various industries. As a job seeker, you
+              can browse through our extensive database of job listings and
+              apply for positions that match your skills and interests. Our
+              user-friendly platform allows you to filter jobs by location,
+              industry, job type, and salary range to help you find the perfect
+              job.
             </p>
             <button className="px-6 py-3 text-white bg-teal rounded-md shadow hover:bg-gray-800 mx-auto">
               Get Started
             </button>
           </div>
-          <img src={j4} alt="job" className="h-96 mr-[105px] rounded-xl shadow-x"/>
+          <img
+            src={j4}
+            alt="job"
+            className="h-96 mr-[105px] rounded-xl shadow-x"
+          />
         </div>
         <div className="w-3/5 mx-auto">{/* <CarouselComp /> */}</div>
         <p className="text-5xl font-bold text-darkPurple w-4/5 my-10 text-center mx-auto ">
-        Direct Hiring App for Founders,  Team Leaders and Hiring Managers
+          Direct Hiring App for Founders, Team Leaders and Hiring Managers
         </p>
         <div className="flex py-10 bg-white w-full ">
           <ol class="relative border-l border-gray-200 mx-auto">
@@ -66,10 +71,8 @@ const Landing = () => {
               {/* <time class="mb-1 text-lg font-normal leading-none text-purple">
                 February 2022
               </time> */}
-              <h3 class="text-xl font-semibold text-lightPurple">
-                REGISTER
-              </h3>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+              <h3 class="text-xl font-semibold text-lightPurple">REGISTER</h3>
+              <p class="mb-4 text-base font-normal text-gray-500 ">
                 Get access to over 20+ pages including a dashboard layout,
                 charts, kanban board, calendar, and pre-order E-commerce &
                 Marketing pages.
@@ -115,7 +118,7 @@ const Landing = () => {
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 GET YOUR DREAM JOB
               </h3>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p class="text-base font-normal text-gray-500 ">
                 Get started with dozens of web components and interactive
                 elements built on top of Tailwind CSS.
               </p>
@@ -137,7 +140,7 @@ const Landing = () => {
               return (
                 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <svg
-                    class="w-10 h-10 mb-2 text-gray-500 dark:text-gray-400"
+                    class="w-10 h-10 mb-2 text-gray-500 "
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -155,9 +158,7 @@ const Landing = () => {
                       {data.title}
                     </h5>
                   </a>
-                  <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                    {data.content}
-                  </p>
+                  <p class="mb-3 font-normal text-gray-500 ">{data.content}</p>
                   <a
                     href="#"
                     class="inline-flex items-center text-teal hover:underline"
@@ -178,357 +179,351 @@ const Landing = () => {
             })}
           </div>
         </div>
-        <section class="text-gray-400 overflow-hidden">
-          <div class="container px-5 py-24 mx-auto">
-            <div class="lg:w-4/5 mx-auto flex flex-wrap">
-              <img
-                alt="ecommerce"
-                class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                src="https://dummyimage.com/400x400"
-              />
-              <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                <h2 class="text-sm title-font text-gray-500 tracking-widest">
-                  BRAND NAME
+        <div className="h-screen w-full flex justify-center items-center bg-white">
+          <section class="">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:px-6">
+              <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-darkPurple">
+                  Designed for business teams like yours
                 </h2>
-                <h1 class="text-white text-3xl title-font font-medium mb-1">
-                  The Catcher in the Rye
-                </h1>
-                <div class="flex mb-4">
-                  <span class="flex items-center">
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <span class="ml-3">4 Reviews</span>
-                  </span>
-                  <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-800 text-gray-500 space-x-2">
-                    <a>
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                      </svg>
-                    </a>
-                    <a>
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                      </svg>
-                    </a>
-                    <a>
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
-                <p class="leading-relaxed">
-                  Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                  sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-                  juiceramps cornhole raw denim forage brooklyn. Everyday carry
-                  +1 seitan poutine tumeric. Gastropub blue bottle austin
-                  listicle pour-over, neutra jean shorts keytar banjo tattooed
-                  umami cardigan.
-                </p>
-                <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
-                  <div class="flex">
-                    <span class="mr-3">Color</span>
-                    <button class="border-2 border-gray-800 rounded-full w-6 h-6 focus:outline-none"></button>
-                    <button class="border-2 border-gray-800 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                    <button class="border-2 border-gray-800 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
+                {/* <p class="mb-5 font-light text-gray-500 sm:text-xl ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p> */}
+              </div>
+              <div class="space-y-8 flex gap-2">
+                {/* <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 bg-darkPurple dark:text-white">
+                  <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
+                  <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                    Best option for personal use & for your next project.
+                  </p>
+                  <div class="flex justify-center items-baseline my-8">
+                    <span class="mr-2 text-5xl font-extrabold">$29</span>
+                    <span class="text-gray-500 dark:text-gray-400">/month</span>
                   </div>
-                  <div class="flex ml-6 items-center">
-                    <span class="mr-3">Size</span>
-                    <div class="relative">
-                      <select class="rounded border border-gray-700 focus:ring-2 focus:ring-indigo-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-indigo-500 text-white pl-3 pr-10">
-                        <option>SM</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                      </select>
-                      <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          class="w-4 h-4"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M6 9l6 6 6-6"></path>
-                        </svg>
+
+                  <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>Individual configuration</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>No setup, or hidden fees</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Team size:{" "}
+                        <span class="font-semibold">1 developer</span>
                       </span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Premium support:{" "}
+                        <span class="font-semibold">6 months</span>
+                      </span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Free updates:{" "}
+                        <span class="font-semibold">6 months</span>
+                      </span>
+                    </li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                  >
+                    Get started
+                  </a>
+                </div> */}
+
+                {/* <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                  <h3 class="mb-4 text-2xl font-semibold">Company</h3>
+                  <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                    Relevant for multiple users, extended & premium support.
+                  </p>
+                  <div class="flex justify-center items-baseline my-8">
+                    <span class="mr-2 text-5xl font-extrabold">$99</span>
+                    <span class="text-gray-500 dark:text-gray-400">/month</span>
+                  </div>
+
+                  <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>Individual configuration</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>No setup, or hidden fees</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Team size:{" "}
+                        <span class="font-semibold">10 developers</span>
+                      </span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Premium support:{" "}
+                        <span class="font-semibold">24 months</span>
+                      </span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Free updates:{" "}
+                        <span class="font-semibold">24 months</span>
+                      </span>
+                    </li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                  >
+                    Get started
+                  </a>
+                </div> */}
+
+                {/* <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                  <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
+                  <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                    Best for large scale uses and extended redistribution
+                    rights.
+                  </p>
+                  <div class="flex justify-center items-baseline my-8">
+                    <span class="mr-2 text-5xl font-extrabold">$499</span>
+                    <span class="text-gray-500 dark:text-gray-400">/month</span>
+                  </div>
+
+                  <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>Individual configuration</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>No setup, or hidden fees</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Team size:{" "}
+                        <span class="font-semibold">100+ developers</span>
+                      </span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Premium support:{" "}
+                        <span class="font-semibold">36 months</span>
+                      </span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                      <svg
+                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span>
+                        Free updates:{" "}
+                        <span class="font-semibold">36 months</span>
+                      </span>
+                    </li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                  >
+                    Get started
+                  </a>
+                </div> */}
+                <div class="container">
+                  <div class="card">
+                    <div class="slide slide1">
+                      <div class="content">
+                        <div class="icon">
+                          <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="slide slide2">
+                      <div class="content">
+                        <h3>Hello there!</h3>
+
+                        <p>Trust yourself and keep going.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="flex">
-                  <span class="title-font font-medium text-2xl text-white">
-                    $58.00
-                  </span>
-                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                    Button
-                  </button>
-                  <button class="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                    <svg
-                      fill="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                    </svg>
-                  </button>
-                </div>
               </div>
             </div>
-            
-          </div>
-        </section>
-        <div class="lg:w-4/5 mx-auto flex flex-row-reverse flex-wrap my-10">
-              <img
-                alt="ecommerce"
-                class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                src="https://dummyimage.com/400x400"
-              />
-              <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                <h2 class="text-sm title-font text-gray-500 tracking-widest">
-                  BRAND NAME
-                </h2>
-                <h1 class="text-white text-3xl title-font font-medium mb-1">
-                  The Catcher in the Rye
-                </h1>
-                <div class="flex mb-4">
-                  <span class="flex items-center">
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="currentColor"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 text-indigo-400"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <span class="ml-3">4 Reviews</span>
-                  </span>
-                  <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-800 text-gray-500 space-x-2">
-                    <a>
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                      </svg>
-                    </a>
-                    <a>
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                      </svg>
-                    </a>
-                    <a>
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
-                <p class="leading-relaxed">
-                  Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                  sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-                  juiceramps cornhole raw denim forage brooklyn. Everyday carry
-                  +1 seitan poutine tumeric. Gastropub blue bottle austin
-                  listicle pour-over, neutra jean shorts keytar banjo tattooed
-                  umami cardigan.
-                </p>
-                <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
-                  <div class="flex">
-                    <span class="mr-3">Color</span>
-                    <button class="border-2 border-gray-800 rounded-full w-6 h-6 focus:outline-none"></button>
-                    <button class="border-2 border-gray-800 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                    <button class="border-2 border-gray-800 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
-                  </div>
-                  <div class="flex ml-6 items-center">
-                    <span class="mr-3">Size</span>
-                    <div class="relative">
-                      <select class="rounded border border-gray-700 focus:ring-2 focus:ring-indigo-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-indigo-500 text-white pl-3 pr-10">
-                        <option>SM</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                      </select>
-                      <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          class="w-4 h-4"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex">
-                  <span class="title-font font-medium text-2xl text-white">
-                    $58.00
-                  </span>
-                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                    Button
-                  </button>
-                  <button class="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                    <svg
-                      fill="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
+          </section>
+        </div>
         <div className="flex flex-col bg-purple items-center py-16">
           <p className="text-5xl font-bold text-white w-4/5 my-5 text-center mx-auto">
             Are you wasting time and money on digital promotions?

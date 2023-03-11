@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="flex font-poppins">
+    <div className="flex font-poppins ">
       <div className="flex flex-col h-screen py-10 bg-darkPurple shadow-5xl w-64">
         <div className="space-y-4">
           <div className="flex items-center text-center">
@@ -108,7 +108,7 @@ const Sidebar = () => {
                       d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
                     />
                   </svg>
-                  <span className="text-gray-100">Explore Jobs</span>
+                 <Link to="/explorejobs"><span className="text-gray-100">Explore Jobs</span></Link>
                 </a>
               </li>
               <li className="rounded-sm">
