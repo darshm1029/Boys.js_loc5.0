@@ -1,6 +1,16 @@
 import React from "react";
 import Calendar from "../../components/Calendar";
 import Sidebar from "./Sidebar";
+import DashboardTableRow from "../../components/TablesProjectRow";
+
+
+import {
+	Table,
+	Tbody,
+	Th,
+	Thead,
+	Tr
+} from '@chakra-ui/react';
 
 const UserDashboard = () => {
   return (
@@ -35,6 +45,106 @@ const UserDashboard = () => {
               </form>
             </div>
             <div className="">
+            <Table variant='simple' color='#fff'>
+						<Thead>
+							<Tr my='.8rem' ps='0px'>
+								<Th
+									ps='0px'
+									color='gray.400'
+									fontFamily='Plus Jakarta Display'
+									borderBottomColor='#56577A'>
+									Companies
+								</Th>
+								<Th color='gray.400' fontFamily='Plus Jakarta Display' borderBottomColor='#56577A'>
+									Members
+								</Th>
+								<Th color='gray.400' fontFamily='Plus Jakarta Display' borderBottomColor='#56577A'>
+									Budget
+								</Th>
+								<Th color='gray.400' fontFamily='Plus Jakarta Display' borderBottomColor='#56577A'>
+									Completion
+								</Th>
+							</Tr>
+						</Thead>
+						<Tbody>
+							{/* {dashboardTableData.map((row, index, arr) => {
+								return (
+									<DashboardTableRow
+										name={row.name}
+										logo={row.logo}
+										members={row.members}
+										budget={row.budget}
+										progression={row.progression}
+										lastItem={index === arr.length - 1 ? true : false}
+									/>
+								);
+							})} */}
+              <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+                  <DashboardTableRow
+										name="test"
+										logo="test"
+										members="test"
+										budget="test"
+										progression="test"
+										lastItem= {true}
+									/>
+						</Tbody>
+					</Table>
 
             </div>
             <div className="flex flex-col">
