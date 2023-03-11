@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import Image1 from '../assets/hero.jpg';
-import Image2 from '../assets/hero.jpg';
-import Image3 from '../assets/hero.jpg';
-import Image4 from '../assets/hero.jpg';
+import Image1 from '../assets/andar.jsx';
+import Image2 from '../assets/baemin.jsx';
+import Image3 from '../assets/breville.jsx';
+import Image4 from '../assets/casa.jsx';
+import Image5 from '../assets/grover.jsx';
+import Image6 from '../assets/seat.jsx';
+import Image7 from '../assets/sig.jsx';
+import Image8 from '../assets/tier.jsx';
+import Image9 from '../assets/tui.jsx';
 
-const images = [Image1, Image2, Image3, Image4];
+const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9];
 
 const CarouselComp = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
