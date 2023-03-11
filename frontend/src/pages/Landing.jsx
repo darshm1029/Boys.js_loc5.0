@@ -9,27 +9,27 @@ const Landing = () => {
   const compGuide = [
     {
       id: 1,
-      title: "Exploring",
+      title: "Google",
       content:
-        "Tokyo is a vibrant city with countless sights and sounds to explore. However, there are also many hidden gems that are off the beaten path. ",
+        "Google is a multinational technology company that specializes in internet-related services and products, including search engines, online advertising technologies, cloud computing, software, and hardware. It was founded in 1998 by Larry Page and Sergey Brin.",
     },
     {
       id: 2,
-      title: "Hiking ",
+      title: "Microsoft",
       content:
-        "The Swiss Alps are a hiker's paradise, with stunning views and challenging trails. In this blog post, we'll share some of the best hikes in the Swiss Alps, including the Haute Route and the Matterhorn. ",
+        "Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington, United States. Microsoft's best-known software products are the Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers.",
     },
     {
       id: 3,
-      title: "Finding Adventure",
+      title: "Meta",
       content:
-        "Costa Rica is a beautiful country with diverse landscapes and plenty of adventure opportunities. In this blog post, we'll share some of the best adventures to have in Costa Rica",
+        "Meta company is a type of company that operates as a platform or intermediary between different businesses or industries, often using advanced technology to analyze and optimize data flows. Meta companies can be involved in a wide range of sectors, from finance and healthcare to transportation and marketing.",
     },
     {
       id: 4,
-      title: "A Road Trip",
+      title: "Amazon",
       content:
-        "The American Southwest is a vast and diverse region with stunning natural beauty and fascinating history. In this blog post, we'll share some of the best road trip routes through the Southwest",
+        "Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence. It has been referred to as one of the most influential economic and cultural forces in the world, and ison of most valuable brands.",
     },
   ];
 
