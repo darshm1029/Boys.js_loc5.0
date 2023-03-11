@@ -3,22 +3,15 @@ import Calendar from "../../components/Calendar";
 import Sidebar from "./Sidebar";
 import DashboardTableRow from "../../components/TablesProjectRow";
 
-
-import {
-	Table,
-	Tbody,
-	Th,
-	Thead,
-	Tr
-} from '@chakra-ui/react';
+import { Table, Tbody, Th, Thead, Tr } from "@chakra-ui/react";
 
 const UserDashboard = () => {
   return (
     <>
-      <div className="flex font-poppins">
+      <div className="flex font-poppins ">
         <Sidebar />
-        <div className="bg-purple/80 w-full h-screen items-center justify-center flex">
-          <div className="flex flex-col text-center w-4/5 shadow-2xl">
+        <div className="bg-purple/80 w-full pl-[20%] mx-auto items-center justify-center flex">
+          <div className="flex flex-col text-center w-4/5 shadow-2xl p-12">
             <div className="m-auto">
               <form className="max-w-sm px-4">
                 <div className="relative">
@@ -44,30 +37,43 @@ const UserDashboard = () => {
                 </div>
               </form>
             </div>
-            <div className="">
-            <Table variant='simple' color='#fff'>
-						<Thead>
-							<Tr my='.8rem' ps='0px'>
-								<Th
-									ps='0px'
-									color='gray.400'
-									fontFamily='Plus Jakarta Display'
-									borderBottomColor='#56577A'>
-									Companies
-								</Th>
-								<Th color='gray.400' fontFamily='Plus Jakarta Display' borderBottomColor='#56577A'>
-									Members
-								</Th>
-								<Th color='gray.400' fontFamily='Plus Jakarta Display' borderBottomColor='#56577A'>
-									Budget
-								</Th>
-								<Th color='gray.400' fontFamily='Plus Jakarta Display' borderBottomColor='#56577A'>
-									Completion
-								</Th>
-							</Tr>
-						</Thead>
-						<Tbody>
-							{/* {dashboardTableData.map((row, index, arr) => {
+            <div className=" text-poppins">
+              <Table variant="simple" color="#3A1078">
+                <Thead>
+                  <Tr my="1rem" ps="0px">
+                    <Th
+                      ps="0px"
+                      color="gray.400"
+                      fontFamily="Plus Jakarta Display"
+                      borderBottomColor="#56577A"
+                    >
+                      Companies
+                    </Th>
+                    <Th
+                      color="gray.400"
+                      fontFamily="Plus Jakarta Display"
+                      borderBottomColor="#56577A"
+                    >
+                      Members
+                    </Th>
+                    <Th
+                      color="gray.400"
+                      fontFamily="Plus Jakarta Display"
+                      borderBottomColor="#56577A"
+                    >
+                      Budget
+                    </Th>
+                    <Th
+                      color="gray.400"
+                      fontFamily="Plus Jakarta Display"
+                      borderBottomColor="#56577A"
+                    >
+                      Completion
+                    </Th>
+                  </Tr>
+                </Thead>
+                <Tbody>
+                  {/* {dashboardTableData.map((row, index, arr) => {
 								return (
 									<DashboardTableRow
 										name={row.name}
@@ -79,78 +85,79 @@ const UserDashboard = () => {
 									/>
 								);
 							})} */}
-              <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
                   <DashboardTableRow
-										name="test"
-										logo="test"
-										members="test"
-										budget="test"
-										progression="test"
-										lastItem= {true}
-									/>
-						</Tbody>
-					</Table>
-
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
+                  <DashboardTableRow
+                    name="test"
+                    logo="test"
+                    members="test"
+                    budget="test"
+                    progression="test"
+                    lastItem={true}
+                  />
+                </Tbody>
+              </Table>
             </div>
-            <div className="flex flex-col">
-              <p className="text-5xl font-bold text-darkPurple">Scheduled Meetings</p>
+            {/* <div className="flex flex-col py-7">
+              <p className="text-5xl font-bold text-darkPurple">
+                Scheduled Meetings
+              </p>
               <Calendar />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
