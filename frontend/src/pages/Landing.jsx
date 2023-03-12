@@ -135,7 +135,7 @@ const Landing = () => {
                     </a>
                     <p class="mb-3 font-normal text-black ">{data.content}</p>
                     <a
-                      href="#"
+                      href="/explorejobs"
                       class="inline-flex items-center text-teal hover:underline"
                     >
                       View Job Opportunities
