@@ -60,13 +60,13 @@ export default function Navbar() {
                 <a href="javascript:void(0)">Home</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="javascript:void(0)">Blog</a>
+                <a href="javascript:void(0)">Explore Jobs</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="javascript:void(0)">About US</a>
+                <a href="javascript:void(0)">About Us</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="javascript:void(0)">Contact US</a>
+                <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
 

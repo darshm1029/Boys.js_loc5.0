@@ -1,14 +1,14 @@
 import React from 'react';
 // import './Carousel.css';
-import Image1 from "../assets/grover.jsx";
-import Image2 from "../assets/sig.jsx";
-import Image3 from "../assets/andar.jsx";
+import Image3 from "../assets/grover.jsx";
+import Image9 from "../assets/sig.jsx";
+import Image1 from "../assets/andor.jsx";
 import Image4 from "../assets/baemin.jsx";
 import Image5 from "../assets/breville";
 import Image6 from "../assets/casa";
-import Image7 from "../assets/seat";
-import Image8 from "../assets/tier";
-import Image9 from "../assets/tui";
+import Image2 from "../assets/seat";
+import Image7 from "../assets/tier";
+import Image8 from "../assets/tui";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -66,6 +66,8 @@ const Carousel = () => {
           transform: `translateX(${translateValue}px)`,
           transition: 'transform ease-out 0.45s',
           display: 'flex',
+          backgroundRepeat: 'round',
+          transformStyle: 'preserve-3d',
         }}
       >
         {slides.map((slide, index) => (
