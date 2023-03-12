@@ -1,19 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import image from "/assets/wave.jpeg"
 
 const Sidebar = () => {
   return (
-    <div className="flex">
+    <div className="flex ">
+      
+      {/* <svg xmlns="http://www.w3.org/2000/svg"
+      className="translate-x-14 -translate-y-[13rem] -rotate-90"
+      
+      viewBox="0 0 1440 320" width={450} >
+        <path
+          fill="#000b76"
+          fill-opacity="1"
+          d="M0,192L40,208C80,224,160,256,240,234.7C320,213,400,139,480,128C560,117,640,171,720,208C800,245,880,267,960,256C1040,245,1120,203,1200,186.7C1280,171,1360,181,1400,186.7L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg"
+      className="-translate-x-[24.40rem] translate-y-[13rem] -rotate-90"
+      
+      viewBox="0 0 1440 320" width={450} >
+        <path
+          fill="#000b76"
+          fill-opacity="1"
+          d="M0,192L40,208C80,224,160,256,240,234.7C320,213,400,139,480,128C560,117,640,171,720,208C800,245,880,267,960,256C1040,245,1120,203,1200,186.7C1280,171,1360,181,1400,186.7L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+       */}
       <div className="flex font-poppins fixed  ">
-        <div className="flex flex-col h-screen py-10 shadow-5xl " style={{ backgroundImage:require('./assets/wave.jpeg') }}>
+        <div className="flex flex-col h-screen py-10 bg-dark shadow-5xl ">
           <div className="space-y-4">
             <div className="flex items-center text-center">
               <h2 className="text-xl font-bold text-white text-center items-center mx-auto">
-                Dashboard
+                HireHub
               </h2>
             </div>
-            <div className="relative mx-3">
+            {/* <div className="relative mx-3">
               <span className="absolute inset-y-0 left-0 flex items-center py-4 ">
                 <button
                   type="submit"
@@ -41,7 +62,7 @@ const Sidebar = () => {
                 placeholder="Search..."
                 className="w-full py-2 pl-10 text-sm rounded-md focus:outline-none"
               />
-            </div>
+            </div> */}
             <div>
               <ul className=" space-y-1 text-lg">
                 <li className="rounded-sm ">
@@ -195,7 +216,6 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
