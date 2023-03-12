@@ -30,29 +30,28 @@ import {
 import { FaEllipsisV } from "react-icons/fa";
 
 function DashboardTableRow(props) {
-  const { logo, name, status, budget, progression, lastItem } = props;
-  const textColor = useColorModeValue("gray.700", "white");
+  const {  name, status, budget, progression, lastItem } = props
   return (
     <Tr>
       <Td
+        color={'#000b76'}
         minWidth={{ sm: "250px" }}
         ps='0px'
         borderBottomColor='#56577A'
         border={lastItem ? "none" : null}>
         <Flex alignItems='center' py='.8rem' minWidth='100%' flexWrap='nowrap'>
-          <Icon as={logo} h={"20px"} w={"20px"} me='18px' />
-          <Text fontSize='sm' color='#fff' minWidth='100%'>
+          <Text fontSize='sm' color='#000b76' minWidth='100%'>
             {name}
           </Text>
         </Flex>
       </Td>
       <Td borderBottomColor='#56577A' border={lastItem ? "none" : null}>
-        <Text fontSize='sm' color='#fff' fontWeight='bold' pb='.5rem'>
+        <Text fontSize='sm' color='#000b76' fontWeight='bold' pb='.5rem'>
           {budget}
         </Text>
       </Td>
-      <Td borderBottomColor='#56577A' border={lastItem ? "none" : null}>
-        <Text fontSize='sm' color='#fff' fontWeight='bold' pb='.5rem'>
+      <Td borderBottomColor='#56577A' border={lastItem ? "none" : null}>  
+        <Text fontSize='sm' color='#000b76' fontWeight='bold' pb='.5rem'>
           {status}
         </Text>
       </Td>
@@ -60,7 +59,7 @@ function DashboardTableRow(props) {
         <Flex direction='column'>
           <Text
             fontSize='sm'
-            color='#fff'
+            color='#000b76'
             fontWeight='bold'
             pb='.2rem'>{`${progression}%`}</Text>
           <Progress

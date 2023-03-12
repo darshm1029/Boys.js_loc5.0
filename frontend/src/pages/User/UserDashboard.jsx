@@ -128,176 +128,201 @@ const UserDashboard = () => {
                 Recommended Jobs
               </Heading>
               <div className="flex space-x-6 border-sm">
-                <Card fontFamily="poppins">
+                <Card
+                padding={3}
+                 fontFamily="poppins"
+                border='1px'  backgroundColor="#000b76"
+                borderRadius="32px"
+                >
                   <CardHeader>
                     <Heading
                       size="md"
                       padding={3}
                       fontFamily="poppins"
-                      textColor="darkblue"
+                      textColor="gray.400"
+                    
                     >
                       Client Report
                     </Heading>
                   </CardHeader>
 
                   <CardBody>
-                    <Stack divider={<StackDivider />} spacing="4">
+                    <Stack  spacing="4">
                       <Box>
                         <Heading
                           size="xs"
                           textTransform="uppercase"
                           padding={1}
                           fontFamily="poppins"
+                          textColor="gray.400"
                         >
                           Summary
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text  textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
                           View a summary of all your clients over the last
                           month.
                         </Text>
                       </Box>
                       <Box>
-                        <Heading size="xs" textTransform="uppercase">
+                        <Heading  textColor="gray.400" size="xs" textTransform="uppercase">
                           Overview
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text  textColor={"white"} pt="2" fontSize="sm" fontFamily="poppins">
                           Check out the overview of your clients.
                         </Text>
                       </Box>
                       <Box>
-                        <Heading size="xs" textTransform="uppercase">
+                        <Heading textColor="gray.400" size="xs" textTransform="uppercase">
                           Analysis
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
                           See a detailed analysis of all your business clients.
                         </Text>
                       </Box>
                     </Stack>
                   </CardBody>
                 </Card>
-                <Card fontFamily="poppins">
+                <Card
+                padding={3}
+                 fontFamily="poppins"
+                border='1px'  backgroundColor="#000b76"
+                borderRadius="32px"
+                >
                   <CardHeader>
                     <Heading
                       size="md"
                       padding={3}
                       fontFamily="poppins"
-                      textColor="darkblue"
+                      textColor="gray.400"
+                    
                     >
                       Client Report
                     </Heading>
                   </CardHeader>
 
                   <CardBody>
-                    <Stack divider={<StackDivider />} spacing="4">
+                    <Stack  spacing="4">
                       <Box>
                         <Heading
                           size="xs"
                           textTransform="uppercase"
                           padding={1}
                           fontFamily="poppins"
+                          textColor="gray.400"
                         >
                           Summary
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text  textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
                           View a summary of all your clients over the last
                           month.
                         </Text>
                       </Box>
                       <Box>
-                        <Heading size="xs" textTransform="uppercase">
+                        <Heading  textColor="gray.400" size="xs" textTransform="uppercase">
                           Overview
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text  textColor={"white"} pt="2" fontSize="sm" fontFamily="poppins">
                           Check out the overview of your clients.
                         </Text>
                       </Box>
                       <Box>
-                        <Heading size="xs" textTransform="uppercase">
+                        <Heading textColor="gray.400" size="xs" textTransform="uppercase">
                           Analysis
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
                           See a detailed analysis of all your business clients.
                         </Text>
                       </Box>
                     </Stack>
                   </CardBody>
                 </Card>
-                <Card fontFamily="poppins">
+                <Card
+                padding={3}
+                 fontFamily="poppins"
+                border='1px'  backgroundColor="#000b76"
+                borderRadius="32px"
+                >
                   <CardHeader>
                     <Heading
                       size="md"
                       padding={3}
                       fontFamily="poppins"
-                      textColor="darkblue"
+                      textColor="gray.400"
+                    
                     >
                       Client Report
                     </Heading>
                   </CardHeader>
 
                   <CardBody>
-                    <Stack divider={<StackDivider />} spacing="4">
+                    <Stack  spacing="4">
                       <Box>
                         <Heading
                           size="xs"
                           textTransform="uppercase"
                           padding={1}
                           fontFamily="poppins"
+                          textColor="gray.400"
                         >
                           Summary
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text  textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
                           View a summary of all your clients over the last
                           month.
                         </Text>
                       </Box>
                       <Box>
-                        <Heading size="xs" textTransform="uppercase">
+                        <Heading  textColor="gray.400" size="xs" textTransform="uppercase">
                           Overview
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text  textColor={"white"} pt="2" fontSize="sm" fontFamily="poppins">
                           Check out the overview of your clients.
                         </Text>
                       </Box>
                       <Box>
-                        <Heading size="xs" textTransform="uppercase">
+                        <Heading textColor="gray.400" size="xs" textTransform="uppercase">
                           Analysis
                         </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                        <Text textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
                           See a detailed analysis of all your business clients.
                         </Text>
                       </Box>
                     </Stack>
                   </CardBody>
                 </Card>
+                
               </div>
               <div className="my-4 text-poppins">
+                <Heading textColor="#000b76" >
+                  Interview Schedule
+                </Heading>
                 <Table variant="simple" color="#3A1078">
                   <Thead>
                     <Tr my="1rem" ps="0px">
                       <Th
                         ps="0px"
-                        color="gray.400"
+                        color="#000b76"
                         fontFamily="Plus Jakarta Display"
                         borderBottomColor="#56577A"
                       >
                         Companies
                       </Th>
                       <Th
-                        color="gray.400"
+                        color="#000b76"
                         fontFamily="Plus Jakarta Display"
                         borderBottomColor="#56577A"
                       >
                         Date
                       </Th>
                       <Th
-                        color="gray.400"
+                        color="#000b76"
                         fontFamily="Plus Jakarta Display"
                         borderBottomColor="#56577A"
                       >
                         Link
                       </Th>
                       <Th
-                        color="gray.400"
+                        color="#000b76"
                         fontFamily="Plus Jakarta Display"
                         borderBottomColor="#56577A"
                       >
@@ -320,9 +345,8 @@ const UserDashboard = () => {
 							})} */}
                     <DashboardTableRow
                       name="test"
-                      logo="test"
-                      members="test"
-                      budget="test"
+                      budget="sahil"
+                      status="sahil1"
                       progression="test"
                       lastItem={true}
                     />
