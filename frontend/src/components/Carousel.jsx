@@ -64,7 +64,7 @@ const Carousel = () => {
         className="carousel-wrapper"
         style={{
           transform: `translateX(${translateValue}px)`,
-          transition: 'transform ease-out 0.45s',
+          transition: 'transform ease-out 3.0s',
           display: 'flex',
           backgroundRepeat: 'round',
           transformStyle: 'preserve-3d',

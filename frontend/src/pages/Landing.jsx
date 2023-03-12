@@ -57,9 +57,8 @@ const Landing = () => {
                 EXPLORE
               </h3>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 ">
-                Get access to over 20+ pages including a dashboard layout,
-                charts, kanban board, calendar, and pre-order E-commerce &
-                Marketing pages.
+                Get access to over 30k+ companies including a wide range of,
+                startups, MNCs, and SMEs.
               </p>
               {/* <a
                 href="#"
@@ -89,9 +88,8 @@ const Landing = () => {
                 REGISTER
               </h3>
               <p class="text-base font-normal text-gray-400">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
+              Registration on our platform is easy, flexible, and hassle-free! Our user-friendly 
+              platform makes it a breeze to sign up and get started on your journey.
               </p>
             </li>
             <li class="ml-4">
@@ -99,12 +97,11 @@ const Landing = () => {
               {/* <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 April 2022
               </time> */}
-              <h3 class="text-lg font-semibold text-dark hover:text-[#4E31AA]">
+              <h3 class="text-lg font-semibold text-gray-900 hover:text-[#4E31AA]">
                 GET YOUR DREAM JOB
               </h3>
               <p class="text-base font-normal text-gray-500 ">
-                Get started with dozens of web components and interactive
-                elements built on top of Tailwind CSS.
+                Get started with your dream job immediadately within the acceptances of offers.
               </p>
             </li>
           </ol>

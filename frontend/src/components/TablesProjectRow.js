@@ -30,7 +30,7 @@ import {
 import { FaEllipsisV } from "react-icons/fa";
 
 function DashboardTableRow(props) {
-  const {  name, status, budget, progression, lastItem } = props
+  const {  position, name, status, budget, progression, lastItem } = props
   return (
     <Tr>
       <Td
@@ -44,6 +44,11 @@ function DashboardTableRow(props) {
             {name}
           </Text>
         </Flex>
+      </Td>
+      <Td borderBottomColor='#56577A' border={lastItem ? "none" : null}>
+      <Text fontSize='sm' color='#000b76' fontWeight='bold' pb='.5rem'>
+          {position}
+        </Text>
       </Td>
       <Td borderBottomColor='#56577A' border={lastItem ? "none" : null}>
         <Text fontSize='sm' color='#000b76' fontWeight='bold' pb='.5rem'>
@@ -61,7 +66,7 @@ function DashboardTableRow(props) {
             fontSize='sm'
             color='#000b76'
             fontWeight='bold'
-            pb='.2rem'>{`${progression}%`}</Text>
+            pb='.2rem'>{`${progression}`}</Text>
           <Progress
             colorScheme='brand'
             maxW='125px'
@@ -71,11 +76,6 @@ function DashboardTableRow(props) {
             borderRadius='15px'
           />
         </Flex>
-      </Td>
-      <Td borderBottomColor='#56577A' border={lastItem ? "none" : null}>
-        <Button p='0px' bg='transparent' _hover='none' _active='none'>
-          <Icon as={FaEllipsisV} color='gray.400' cursor='pointer' />
-        </Button>
       </Td>
     </Tr>
   );

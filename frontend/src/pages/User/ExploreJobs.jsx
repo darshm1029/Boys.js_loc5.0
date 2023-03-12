@@ -20,13 +20,10 @@ const ExploreJobs = () => {
                 </div>
                 <div class="md:flex-grow">
                   <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                    Bitters hashtag waistcoat fashion axe chia unicorn
+                    Parkit- A Parking Management System
                   </h2>
                   <p class="leading-relaxed">
-                    Glossier echo park pug, church-key sartorial biodiesel
-                    vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                    moon party messenger bag selfies, poke vaporware kombucha
-                    lumbersexual pork belly polaroid hoodie portland craft beer.
+                  As an AI/ML developer, your role would be to design and build artificial intelligence and machine learning models that can analyze and learn from large amounts of data. You would use programming languages such as Python, Java, or C++ to develop algorithms.
                   </p>
                   <button
                     onClick={() => {
@@ -59,13 +56,10 @@ const ExploreJobs = () => {
                 </div>
                 <div class="md:flex-grow">
                   <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                    Meditation bushwick direct trade taxidermy shaman
+                    Evolfit - A Fitness App
                   </h2>
                   <p class="leading-relaxed">
-                    Glossier echo park pug, church-key sartorial biodiesel
-                    vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                    moon party messenger bag selfies, poke vaporware kombucha
-                    lumbersexual pork belly polaroid hoodie portland craft beer.
+                  As a backend developer, you will be responsible for developing and maintaining the server-side of our web applications. You will work closely with front-end developers, product managers, and other stakeholders to deliver high-quality and scalable solutions.
                   </p>
                   <button
                     class="text-white inline-flex items-center mt-4 py-2 px-4 bg-purple rounded-2xl"
@@ -98,13 +92,10 @@ const ExploreJobs = () => {
                 </div>
                 <div class="md:flex-grow">
                   <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                    Woke master cleanse drinking vinegar salvia
+                    Artenal - A Social Media Platform
                   </h2>
                   <p class="leading-relaxed">
-                    Glossier echo park pug, church-key sartorial biodiesel
-                    vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                    moon party messenger bag selfies, poke vaporware kombucha
-                    lumbersexual pork belly polaroid hoodie portland craft beer.
+                  We are seeking a skilled Frontend Developer to join our team. The ideal candidate should have experience in building dynamic and responsive user interfaces using modern web technologies. You will work closely with our UX/UI designers and backend developers.
                   </p>
                   <button
                     onClick={() => {
