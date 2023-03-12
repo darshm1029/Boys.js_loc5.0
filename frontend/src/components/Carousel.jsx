@@ -59,9 +59,9 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel">
+    <div className="carousel w-4/5 mx-auto">
       <div
-        className="carousel-wrapper"
+        className="carousel-wrapper w-4/5 mx-auto"
         style={{
           transform: `translateX(${translateValue}px)`,
           transition: 'transform ease-out 3.0s',
