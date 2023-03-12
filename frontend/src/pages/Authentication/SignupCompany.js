@@ -64,16 +64,16 @@ const SignupCompany = () => {
     }
   }
   return (
-    <div className="bg-purple w-full h-screen flex text-white justify-evenly items-center font-main">
-      <div className="w-1/2 h-11/12 text-center">
+    <div className="bg-dark w-full h-screen flex text-white justify-evenly items-center font-poppins ">
+      <div className="w-1/2 text-center">
         <h1 className="text-4xl font-semibold inline">We find the </h1>
-        <h1 className="text-secondary text-4xl font-semibold inline">Right</h1>
+        <h1 className="text-light text-4xl font-semibold inline">Right</h1>
         <h1 className="text-4xl font-semibold inline"> People!</h1>
-        <form className="bg-[#FEF9F9] w-2/3 h-[500px] mx-auto flex flex-col justify-evenly mt-10 px-10 rounded-2xl">
+        <form className="bg-[#FEF9F9] w-2/3 py-16 gap-y-3 mx-auto flex flex-col justify-evenly mt-10 px-10 rounded-2xl">
           <div>
             <label className="text-left text-black">Official Email ID</label>
             <input
-              className="w-full self-center rounded-lg p-1 text-black bg-white border-purple border-4"
+              className="w-full self-center rounded-lg p-1 text-black bg-white border border-dark px-6 py-2"
               type="email"
               placeholder="abc@xyz.com"
               name="email"
@@ -84,7 +84,7 @@ const SignupCompany = () => {
           <div>
             <label className="text-left text-black">Password</label>
             <input
-              className="w-full self-center rounded-lg p-1 text-black bg-white border-purple border-4"
+              className="w-full self-center rounded-lg p-1 text-black bg-white border border-dark px-6 py-2"
               type="password"
               placeholder="********"
               name="password"
@@ -97,7 +97,7 @@ const SignupCompany = () => {
               <div className="w-1/2">
                 <label className="text-left text-black">Name</label>
                 <input
-                  className="w-[100%]  rounded-lg p-1 text-black bg-white border-purple border-4"
+                  className="w-[100%]  rounded-lg p-1 text-black bg-white border border-dark px-6 py-2"
                   type="text"
                   placeholder="Name"
                   name="name"
@@ -108,7 +108,7 @@ const SignupCompany = () => {
               <div className="w-1/2 ml-2">
                 <label className="text-left text-black">Company Type</label>
                 <select
-                  className="w-[100%] rounded-lg p-1 text-black bg-white border-purple border-4"
+                  className="w-[100%] rounded-lg p-1 text-black bg-white border border-dark px-6 py-2"
                   name="typeOfCompany" onChange={handleCompanyChange}
                 >
                   <option>Select</option>
@@ -127,7 +127,7 @@ const SignupCompany = () => {
           <div>
             <label className="text-left text-black">Mobile Number</label>
             <input
-              className="w-full self-center rounded-lg p-1 text-black bg-white border-purple border-4"
+              className="w-full self-center rounded-lg p-1 text-black bg-white border border-dark px-6 py-2"
               type="text"
               placeholder="Enter your contact number"
               name="contactNo"
@@ -135,7 +135,7 @@ const SignupCompany = () => {
               value={contactNo}
             />
           </div>
-          <button className="bg-purple w-2/5 self-center py-2 rounded-xl font-semibold" onClick={handleSubmit}>
+          <button className="bg-dark w-2/5 self-center py-2 my-5 rounded-xl font-semibold" onClick={handleSubmit}>
             Register Now
           </button>
           <div className="flex self-center font-medium text-black">

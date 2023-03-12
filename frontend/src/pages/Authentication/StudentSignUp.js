@@ -56,7 +56,7 @@ const StudentSignUp = () => {
     }
   }
   return (
-    <div className="bg-purple w-full h-screen flex text-white justify-evenly items-center font-main">
+    <div className="bg-dark w-full h-screen flex text-white justify-evenly items-center font-poppins">
       <div className="w-1/2 h-11/12 text-center">
         <h1 className="text-4xl font-semibold inline">Get The </h1>
         <h1 className="text-secondary text-4xl font-semibold inline">
@@ -73,9 +73,9 @@ const StudentSignUp = () => {
           </button>
           <hr></hr>
           <div>
-            <label className="text-left ml-9 text-black">Email ID</label>
+            <label className="text-left ml-9 text-black justify-start">Email ID</label>
             <input
-              className="w-5/6 self-center rounded-lg p-1 text-black bg-white border-purple border-4"
+              className="w-5/6 self-center rounded-lg p-1 text-black bg-white border-dark px-8 py-2 border"
               type="email"
               placeholder="abc@xyz.com"
               name="email"
@@ -86,7 +86,7 @@ const StudentSignUp = () => {
           <div>
             <label className="text-left ml-9 text-black">Password</label>
             <input
-              className="w-5/6 self-center rounded-lg p-1 text-black bg-white border-purple border-4"
+              className="w-5/6 self-center rounded-lg p-1 text-black bg-white border-dark px-8 py-2 border"
               type="password"
               placeholder="********"
               onChange={handlePasswordChange}
@@ -100,7 +100,7 @@ const StudentSignUp = () => {
                 First Name
               </label>
               <input
-                className="w-[95%] -ml-2 rounded-lg p-1 text-black bg-white border-purple border-4"
+                className="w-[95%] -ml-2 rounded-lg p-1 text-black bg-white border-dark px-4 py-2 border"
                 type="text"
                 placeholder="First Name"
                 name="firstName"
@@ -109,9 +109,9 @@ const StudentSignUp = () => {
               />
             </div>
             <div className="w-1/2 ml-5">
-              <label className="text-left text-black">Last Name</label>
+              <label className=" text-black">Last Name</label>
               <input
-                className="w-[95%] rounded-lg p-1 text-black bg-white border-purple border-4"
+                className="w-[95%] rounded-lg p-1 text-black bg-white border-dark px-4 py-2 border"
                 type="text"
                 placeholder="Last Name"
                 name="lastName"
@@ -120,12 +120,12 @@ const StudentSignUp = () => {
               />
             </div>
           </div>
-          <button className="bg-purple w-2/5 self-center py-2 rounded-xl font-semibold" onClick={handleSubmit}>
+          <button className="bg-dark w-2/5 self-center py-2 rounded-xl font-semibold" onClick={handleSubmit}>
             Register Now
           </button>
           <div className="flex self-center font-medium text-black">
             <p>Already Registered?</p>&nbsp;
-            <a className="text-secondary underline hover:text-purple" href="/login">
+            <a className="text-dark underline hover:text-purple " href="/login">
               Sign In
             </a>
           </div>

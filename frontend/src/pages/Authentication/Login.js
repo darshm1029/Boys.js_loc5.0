@@ -38,7 +38,7 @@ const Login = () => {
       // alert("Successfully Logged in.");
       if(response.data.studentUser)
       {
-        navigate('/dashboard');
+        navigate('/userdashboard');
       }
       else{
         navigate('/companydashboard')
@@ -51,21 +51,21 @@ const Login = () => {
     }
   }
   return (
-    <div className="bg-purple w-full h-screen flex text-white justify-evenly items-center font-main">
+    <div className="bg-dark w-full h-screen flex text-white justify-evenly items-center font-poppins">
       <form className="w-1/2 h-11/12 text-center">
-        <h1 className="text-4xl font-semibold inline">Find the job of </h1>
+        <h1 className="text-4xl font-semibold inline font-poppins">Find the job of </h1>
         <br />
         <h1 className="text-4xl font-semibold inline">
-          your <span className="text-secondary">Dreams</span>
+          your <span className="text-light">Dreams</span>
         </h1>
-        <div className="bg-[#FEF9F9] w-2/3 h-[500px] mx-auto flex flex-col justify-evenly mt-10 px-10 rounded-2xl">
+        <div className="bg-[#FEF9F9] w-2/3 gap-y-6 py-32 mx-auto flex flex-col justify-evenly mt-10 px-10 rounded-2xl">
           
-          <div className="flex flex-col justify-start">
-            <label className="text-left ml-10 font-semibold text-[#201835]" htmlFor="email">
+          <div className="flex flex-col ">
+            <label className="text-left ml-10 mb-1 font-semibold text-[#201835]" htmlFor="email">
               Email ID
             </label>
             <input
-              className="w-5/6 self-center rounded-lg p-1 text-black bg-white border-purple border-2"
+              className="w-5/6 self-center rounded-lg px-6 py-2 text-black bg-white border-purple border"
               type="email"
               placeholder="abc@xyz.com"
               id="email"
@@ -74,10 +74,10 @@ const Login = () => {
               onChange={handleEmailChange}
             />
           </div>
-          <div className="flex flex-col justify-start">
-            <label className="text-left  ml-10  font-semibold text-[#201835]" htmlFor="password">Password</label>
+          <div className="flex flex-col">
+            <label className="text-left  ml-10  font-semibold text-[#201835] mb-1" htmlFor="password">Password</label>
             <input
-              className="w-5/6 self-center rounded-lg p-1 text-black bg-white border-purple border-2"
+              className="w-5/6 self-center rounded-lg px-6 py-2 items-center text-black bg-white border-purple border-2"
               type="password"
               placeholder="********"
               name="password"
@@ -87,10 +87,10 @@ const Login = () => {
             />
           </div>
 
-          <button className="bg-purple w-2/5 self-center py-2 rounded-xl font-semibold text-lg " onClick={handleSubmit}>
+          <button className="bg-dark hover:bg-dark/50 hover:text-black w-2/5 self-center py-2 rounded-xl font-semibold text-lg " onClick={handleSubmit}>
             Login
           </button>
-          <div className="flex self-center font-medium text-[#313638]">
+          <div className="flex self-center font-medium text-dark">
             <p>New User?</p>&nbsp;
             <p>Register</p>&nbsp; (
             <a className="text-secondary underline hover:text-purple" href="/studentsignup">
