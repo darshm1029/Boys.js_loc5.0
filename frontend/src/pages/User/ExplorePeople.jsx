@@ -124,9 +124,11 @@ const ExplorePeople = () => {
                   <Divider />
                   <CardFooter>
                     <ButtonGroup spacing="2">
+                      <a target="_blank" href="https://www.linkedin.com/company/echo3d/">
                       <Button variant="solid" colorScheme="blue">
                         Connect
                       </Button>
+                      </a>
                       <Button variant="ghost" colorScheme="blue">
                         Message
                       </Button>

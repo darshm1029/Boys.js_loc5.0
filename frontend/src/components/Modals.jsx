@@ -16,7 +16,7 @@ export default function Modals({showModal, setShowModal}) {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    Modal Title
+                    Job Description
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -30,11 +30,10 @@ export default function Modals({showModal, setShowModal}) {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    I always felt like I could do anything. That’s the main
-                    thing people are controlled by! Thoughts- their perception
-                    of themselves! They're slowed down by their perception of
-                    themselves. If you're taught you can’t do anything, you
-                    won’t do anything. I was taught I could do everything.
+                  The Developer will be responsible for designing, developing, testing, and maintaining software applications. They will collaborate with cross-functional teams to ensure the delivery of high-quality software solutions that meet the needs of the organization and its customers. The Developer will also be responsible for keeping up-to-date with emerging trends and technologies in software development.
+                  Design and develop software applications using programming languages such as Java, C++, Python, and others.
+                  Collaborate with cross-functional teams including product managers, designers, and other developers to identify business requirements and develop software solutions.
+                  Test software applications to ensure they meet quality standards and are free of bugs and errors.
                   </p>
                 </div>
                 {/*footer*/}
