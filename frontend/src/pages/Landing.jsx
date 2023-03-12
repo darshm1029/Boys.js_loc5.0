@@ -136,9 +136,7 @@ const Landing = () => {
                         {data.title}
                       </h5>
                     </a>
-                    <p class="mb-3 font-normal text-black ">
-                      {data.content}
-                    </p>
+                    <p class="mb-3 font-normal text-black ">{data.content}</p>
                     <a
                       href="#"
                       class="inline-flex items-center text-teal hover:underline"
@@ -384,7 +382,7 @@ const Landing = () => {
                   >
                     Get started
                   </a>
-                </div> */}
+                </div>
 
                 <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                   <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
@@ -393,7 +391,7 @@ const Landing = () => {
                     rights.
                   </p>
                   <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$499</span>
+                    <span class="mr-2 text-5xl font-extrabold">Rs 499</span>
                     <span class="text-gray-500 dark:text-gray-400">/month</span>
                   </div>
 
@@ -489,7 +487,7 @@ const Landing = () => {
                   >
                     Get started
                   </a>
-                </div>
+                </div> */}
                 <div class="container">
                   <div class="card">
                     <div class="slide slide1">
@@ -500,13 +498,6 @@ const Landing = () => {
                       </div>
                     </div>
 
-                    <div class="slide slide2">
-                      <div class="content">
-                        <h3>Hello there!</h3>
-
-                        <p>Trust yourself and keep going.</p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -514,16 +505,16 @@ const Landing = () => {
           </section>
         </div>
         <div className="flex flex-col">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#5000ca"
               fill-opacity="1"
               d="M0,96L21.8,122.7C43.6,149,87,203,131,192C174.5,181,218,107,262,96C305.5,85,349,139,393,160C436.4,181,480,171,524,186.7C567.3,203,611,245,655,240C698.2,235,742,181,785,181.3C829.1,181,873,235,916,261.3C960,288,1004,288,1047,282.7C1090.9,277,1135,267,1178,224C1221.8,181,1265,107,1309,106.7C1352.7,107,1396,181,1418,218.7L1440,256L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
             ></path>
           </svg>
-        <div className="flex flex-col bg-purple items-center py-16">
-          <Footer/>
-        </div>
+          <div className="flex flex-col bg-purple items-center py-16">
+            <Footer />
+          </div>
         </div>
       </div>
     </>

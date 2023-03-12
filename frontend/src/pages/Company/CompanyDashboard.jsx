@@ -70,9 +70,9 @@ const CompanyDashboard = () => {
 
   return (
     <div>
-      <div className="bg-[#40189D] w-full min-h-screen h-full flex font-poppins">
+      <div className="bg-dark w-full min-h-screen h-full flex font-poppins">
         <SideBarCompany selected="Dashboard" />
-        <div className="bg-purple/90 w-full px-10 pt-4 ml-10 ">
+        <div className="bg-white w-full px-10 pt-4 ml-10 ">
           <div className="max-w-7xl mx-auto px-6">
             <Header heading="Dashboard" user="Company" />
             <div className="h-1/5 flex my-10 justify-between gap-10">
@@ -99,7 +99,7 @@ const CompanyDashboard = () => {
             </div>
             <div className="flex mt-11 relative">
               {/* Company Card */}
-              <div className="bg-white rounded-[34px] relative mr-10 h-[0%]">
+              <div className="bg-light rounded-[34px] relative mr-10  h-[0%]">
                 {/* <img
                   className="rounded-tl-[34px] rounded-tr-[34px] h-[200px]"
                   src={BackgroundImg}
@@ -119,7 +119,7 @@ const CompanyDashboard = () => {
                     <i className="fa-solid fa-users pt-2" />
                     <div className="pl-4 pr-6 pb-1">
                       <h2 className="font-bold">{company ? company.noOfEmp : 'No. of employees not found!'}</h2>
-                      <h6 className="text-[#808080] text-[12px] font-medium">
+                      <h6 className="text-white text-[12px] font-medium">
                         Employees
                       </h6>
                     </div>
@@ -136,53 +136,53 @@ const CompanyDashboard = () => {
                   <i className="fa-solid fa-location-dot pt-2"></i>
                   <div className="pl-4 pb-1">
                     <h2 className="font-bold">{company ? company.location : 'Location not found!'}</h2>
-                    <h6 className="text-[#808080] text-[12px] font-medium ml-1">
+                    <h6 className="text-white text-[12px] font-medium ml-1">
                       Location
                     </h6>
                   </div>
                 </div>
               </div>
               {/* Job Description */}
-              <div className="bg-white rounded-[34px] p-8 w-full">
-                <h1 className="flex text-[20px] ">
+              <div className="bg-purple rounded-[34px] p-8 w-full">
+                <h1 className=" text-white flex text-2xl ">
                   Company Information
                 </h1>
                 <div>
                   <div className="flex mt-[5%] whitespace-nowrap ">
                     <div className="justify-items-start mr-60">
-                      <h1 className="  text-[15px]">
+                      <h1 className="text-white text-[15px]">
                         Phone Number
                       </h1>
-                      <p>{company ? company.contactNo : 'Contact Details not found!'}</p>
+                      <p className="text-gray-400 text-lg">{company ? company.contactNo : 'Contact Details not found!'}</p>
                     </div>
                     <div className="justify-items-start">
-                      <h1 className=" text-[15px]">Type</h1>
-                      <p>{company ? company.typeOfCompany : 'Type of company not found!'}</p>
+                      <h1 className="text-white text-[15px]">Type</h1>
+                      <p className="text-gray-400 text-lg">{company ? company.typeOfCompany : 'Type of company not found!'}</p>
                     </div>
                   </div>
                   <div className="flex mt-[5%] whitespace-nowrap ">
                     <div className="justify-items-start mr-60">
-                      <h1 className=" text-[15px]">Email ID</h1>
-                      <p>{company ? company.email: 'company email not found!'}</p>
+                      <h1 className="text-white text-[15px]">Email ID</h1>
+                      <p className="text-gray-400 text-lg">{company ? company.email: 'company email not found!'}</p>
                     </div>
                     <div className="justify-items-start">
-                      <h1 className=" text-[15px]">Website</h1>
-                      <a href="www.abc.com" target={"_blank"}>
+                      <h1 className="text-white text-[15px]">Website</h1>
+                      <a href="www.abc.com" target={"_blank"} className="text-gray-400 text-lg">
                       {company ? company.website : 'Company Website not found!'}
                       </a>
                     </div>
                   </div>
                   <div className="flex justify-between mt-[5%]">
                     <div>
-                      <h1 className=" text-[15px]">
+                      <h1 className="text-white text-[15px]">
                         Description
                       </h1>
-                      <p>
+                      <p className="text-gray-400 text-lg">
                         {company ? company.companyInfo : 'Description of company not found!'}
                       </p>
                     </div>
                   </div>
-                  <button onClick={handleSubmit}className="bg-darkPurple hover:bg-[#6440b7] text-white font-semibold py-[0.7rem] px-9 rounded-full h-0% text-center text-[15px] mt-10  bottom-4 left-[50%]">
+                  <button onClick={handleSubmit} className="bg-teal hover:bg-[#6440b7] text-white font-semibold py-[0.7rem] px-9 rounded-full h-0% text-center text-[15px] mt-10  bottom-4 left-[50%]">
                     Edit Profile
                   </button>
                 </div>

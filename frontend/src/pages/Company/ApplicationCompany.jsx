@@ -33,7 +33,7 @@ console.log(student)
   return (
     <div className="bg-[#40189D] w-full min-h-screen h-full flex font-main">
       <SideBarCompany selected="Applications" />
-      <div className="bg-purple/80 w-full px-10 pt-4 ml-10">
+      <div className=" w-full px-10 pt-4 ml-10">
         <Header heading="Applications" user="Company" />
         <div className="flex justify-left mt-2">
           <div className="text-sm font-semibold my-4 text-gray-300">

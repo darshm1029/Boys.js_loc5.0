@@ -22,6 +22,8 @@ import {
 } from "@chakra-ui/react";
 
 const UserDashboard = () => {
+  
+  
   return (
     <>
       <div className="flex font-poppins ">
@@ -123,9 +125,13 @@ const UserDashboard = () => {
                   </div>
                   <div className="h-[20rem] w-[20rem]">
                     <PieChart
-                  
                       data={[
-                        { title: "One", value: 10, color: "#000b76", reveal: 20 },
+                        {
+                          title: "One",
+                          value: 10,
+                          color: "#000b76",
+                          reveal: 20,
+                        },
                         { title: "Two", value: 15, color: "#3795BD" },
                         { title: "Three", value: 20, color: "#5000ca" },
                       ]}
