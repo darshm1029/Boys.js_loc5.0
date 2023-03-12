@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="flex flex-wrap md:text-left text-center order-first">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-bold text-2xl text-light mb-3">
-              CATEGORIES
+              HOME
             </h2>
             <nav class="list-none mb-10">
               <li>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-bold text-2xl text-light mb-3">
-              CATEGORIES
+              ABOUT US
             </h2>
             <nav class="list-none mb-10">
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-bold text-2xl text-light mb-3">
-              CATEGORIES
+              CONTACT US
             </h2>
             <nav class="list-none mb-10">
               <li>

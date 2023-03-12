@@ -495,6 +495,13 @@ const Landing = () => {
                       </div>
                     </div>
 
+                    <div class="slide slide2">
+                      <div class="content">
+                        {/* <h3>Hello there!</h3>
+
+                        <p>Trust yourself and keep going.</p> */}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
