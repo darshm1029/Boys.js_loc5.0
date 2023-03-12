@@ -8,8 +8,8 @@ export default function Navbar() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 ">
-            <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-white">Hireddd</h2>
+            <a href="javascript:void(0)"> 
+              <h2 className="text-2xl font-bold text-white">HireHub</h2>
             </a>
             <div className="md:hidden">
               <button

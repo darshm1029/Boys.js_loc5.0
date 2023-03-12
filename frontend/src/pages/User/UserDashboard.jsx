@@ -136,7 +136,7 @@ const UserDashboard = () => {
                       fontFamily="poppins"
                       textColor="darkblue"
                     >
-                      Client Report
+                      Front Developer
                     </Heading>
                   </CardHeader>
 
@@ -149,27 +149,26 @@ const UserDashboard = () => {
                           padding={1}
                           fontFamily="poppins"
                         >
-                          Summary
-                        </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          View a summary of all your clients over the last
-                          month.
-                        </Text>
-                      </Box>
-                      <Box>
-                        <Heading size="xs" textTransform="uppercase">
                           Overview
                         </Heading>
                         <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          Check out the overview of your clients.
+                        We are seeking a skilled Frontend Developer to join our team. The ideal candidate should have experience in building dynamic and responsive user interfaces using modern web technologies. You will work closely with our UX/UI designers and backend developers.
                         </Text>
                       </Box>
                       <Box>
                         <Heading size="xs" textTransform="uppercase">
-                          Analysis
+                          Stipend
                         </Heading>
                         <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          See a detailed analysis of all your business clients.
+                          1500$ 
+                        </Text>
+                      </Box>
+                      <Box>
+                        <Heading size="xs" textTransform="uppercase">
+                          Duration
+                        </Heading>
+                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                          3 Months - 6 Months
                         </Text>
                       </Box>
                     </Stack>
@@ -183,7 +182,7 @@ const UserDashboard = () => {
                       fontFamily="poppins"
                       textColor="darkblue"
                     >
-                      Client Report
+                      Backend Developer
                     </Heading>
                   </CardHeader>
 
@@ -196,27 +195,26 @@ const UserDashboard = () => {
                           padding={1}
                           fontFamily="poppins"
                         >
-                          Summary
-                        </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          View a summary of all your clients over the last
-                          month.
-                        </Text>
-                      </Box>
-                      <Box>
-                        <Heading size="xs" textTransform="uppercase">
                           Overview
                         </Heading>
                         <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          Check out the overview of your clients.
+                        As a backend developer, you will be responsible for developing and maintaining the server-side of our web applications. You will work closely with front-end developers, product managers, and other stakeholders to deliver high-quality and scalable solutions.
                         </Text>
                       </Box>
                       <Box>
                         <Heading size="xs" textTransform="uppercase">
-                          Analysis
+                          Stipend
                         </Heading>
                         <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          See a detailed analysis of all your business clients.
+                          2000$
+                        </Text>
+                      </Box>
+                      <Box>
+                        <Heading size="xs" textTransform="uppercase">
+                          Duration
+                        </Heading>
+                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                          6 Months 
                         </Text>
                       </Box>
                     </Stack>
@@ -230,7 +228,7 @@ const UserDashboard = () => {
                       fontFamily="poppins"
                       textColor="darkblue"
                     >
-                      Client Report
+                      AI-ML Developer
                     </Heading>
                   </CardHeader>
 
@@ -243,27 +241,26 @@ const UserDashboard = () => {
                           padding={1}
                           fontFamily="poppins"
                         >
-                          Summary
-                        </Heading>
-                        <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          View a summary of all your clients over the last
-                          month.
-                        </Text>
-                      </Box>
-                      <Box>
-                        <Heading size="xs" textTransform="uppercase">
                           Overview
                         </Heading>
                         <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          Check out the overview of your clients.
+                        As an AI/ML developer, your role would be to design and build artificial intelligence and machine learning models that can analyze and learn from large amounts of data. You would use programming languages such as Python, Java, or C++ to develop algorithms
                         </Text>
                       </Box>
                       <Box>
                         <Heading size="xs" textTransform="uppercase">
-                          Analysis
+                          Stipend
                         </Heading>
                         <Text pt="2" fontSize="sm" fontFamily="poppins">
-                          See a detailed analysis of all your business clients.
+                          1000$
+                        </Text>
+                      </Box>
+                      <Box>
+                        <Heading size="xs" textTransform="uppercase">
+                          Duration
+                        </Heading>
+                        <Text pt="2" fontSize="sm" fontFamily="poppins">
+                          6 Months - 8 Months
                         </Text>
                       </Box>
                     </Stack>
@@ -325,6 +322,7 @@ const UserDashboard = () => {
                       budget="test"
                       progression="test"
                       lastItem={true}
+                      textColor="black"
                     />
                     <DashboardTableRow
                       name="test"
