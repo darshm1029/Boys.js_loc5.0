@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="flex ">
-      
       {/* <svg xmlns="http://www.w3.org/2000/svg"
       className="translate-x-14 -translate-y-[13rem] -rotate-90"
       
@@ -27,11 +26,11 @@ const Sidebar = () => {
       </svg>
        */}
       <div className="flex font-poppins fixed  ">
-        <div className="flex flex-col h-screen py-10 bg-dark shadow-5xl ">
+        <div className="flex flex-col h-screen py-10 bg-dark w-[400px] shadow-5xl text-center">
           <div className="space-y-4">
             <div className="flex items-center text-center">
-              <h2 className="text-xl font-bold text-white text-center items-center mx-auto">
-                HireHub
+              <h2 className="text-6xl font-bold text-white text-center items-center mx-auto my-2">
+                <Link to="/">HireHub</Link>
               </h2>
             </div>
             {/* <div className="relative mx-3">
@@ -63,12 +62,12 @@ const Sidebar = () => {
                 className="w-full py-2 pl-10 text-sm rounded-md focus:outline-none"
               />
             </div> */}
-            <div>
-              <ul className=" space-y-1 text-lg">
-                <li className="rounded-sm ">
+            <div className="mx-auto">
+              <ul className=" space-y-1 text-lg text-center mx-auto">
+                <li className="rounded-sm ml-16 ">
                   <a
                     href="#"
-                    className="flex items-center p-2 space-x-3 rounded-md"
+                    className="flex items-center p-2 space-x-3 rounded-md text-center"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -84,11 +83,13 @@ const Sidebar = () => {
                         d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                       />
                     </svg>
-                    <span className="text-gray-100">Home</span>
+                    <Link to="/userdashboard">
+                      <span className="text-gray-100">Home</span>
+                    </Link>
                   </a>
                 </li>
 
-                <li className="rounded-sm">
+                <li className="rounded-sm ml-16">
                   <a
                     href="#"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -112,7 +113,7 @@ const Sidebar = () => {
                     </Link>
                   </a>
                 </li>
-                <li className="rounded-sm">
+                <li className="rounded-sm ml-16">
                   <a
                     href="#"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -136,7 +137,7 @@ const Sidebar = () => {
                     </Link>
                   </a>
                 </li>
-                <li className="rounded-sm">
+                <li className="rounded-sm ml-16">
                   <a
                     href="#"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -160,7 +161,7 @@ const Sidebar = () => {
                     </Link>
                   </a>
                 </li>
-                <li className="rounded-sm">
+                <li className="rounded-sm ml-16">
                   <a
                     href="#"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -189,7 +190,7 @@ const Sidebar = () => {
                     </Link>
                   </a>
                 </li>
-                <li className="rounded-sm">
+                <li className="rounded-sm ml-16">
                   <a
                     href="#"
                     className="flex items-center p-2 space-x-3 rounded-md"

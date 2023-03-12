@@ -6,10 +6,10 @@ const ExploreJobs = () => {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
-      <div className="flex">
+      <div className="flex font-poppins">
         <Sidebar />
         <section class="text-gray-600 body-font overflow-hidden">
-          <div class="container px-5 py-24 mx-auto">
+          <div class="container px-52 py-24 mx-auto">
             <div class="-my-8 divide-y-2 divide-gray-100">
               <div class="py-8 flex flex-wrap md:flex-nowrap">
                 <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -32,7 +32,7 @@ const ExploreJobs = () => {
                     onClick={() => {
                       setShowModal(true);
                     }}
-                    class="text-white inline-flex items-center mt-4 py-2 px-4 bg-darkPurple rounded-2xl"
+                    class="text-white inline-flex items-center mt-4 py-2 px-4 bg-purple rounded-2xl"
                   >
                     Learn More
                     <svg
@@ -68,7 +68,7 @@ const ExploreJobs = () => {
                     lumbersexual pork belly polaroid hoodie portland craft beer.
                   </p>
                   <button
-                    class="text-white inline-flex items-center mt-4 py-2 px-4 bg-darkPurple rounded-2xl"
+                    class="text-white inline-flex items-center mt-4 py-2 px-4 bg-purple rounded-2xl"
                     onClick={() => {
                       setShowModal(true);
                     }}
@@ -110,7 +110,7 @@ const ExploreJobs = () => {
                     onClick={() => {
                       setShowModal(true);
                     }}
-                    class="text-white inline-flex items-center mt-4 py-2 px-4 bg-darkPurple rounded-2xl"
+                    class="text-white inline-flex items-center mt-4 py-2 px-4 bg-purple rounded-2xl"
                   >
                     Learn More
                     <svg
