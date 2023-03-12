@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import {useNavigate} from "react-router";
+import image from "../../assets/j3.gif"
 const SignupCompany = () => {
 
   const navigate=useNavigate();
@@ -10,7 +11,7 @@ const SignupCompany = () => {
   const [ contactNo, setContactNo ] = useState("");
   const [ typeOfCompany, setTypeOfCompany ] = useState("");
 
-  const url = 'http://localhost:5000';
+  const url = 'http://192.168.220.132:5000';
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -146,10 +147,10 @@ const SignupCompany = () => {
           </div>
         </form>
       </div>
-      <div>
+      <div className="">
         <img
-          className="rounded-full w-10/12"
-          src="images/companysignup.gif"
+          className="rounded-lg w-3/5"
+          src={image}
           alt="signup"
         />
       </div>

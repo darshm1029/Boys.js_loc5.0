@@ -9,7 +9,7 @@ import {useNavigate} from 'react-router-dom';
 const ApplicationCompany = ({ jid = '6307bc06997f86d84884ba74'}) => {
   const [student,setStudent] =useState({});
   const navigate = useNavigate();
-//   const url = "http://localhost:5000";
+//   const url = "http://192.168.220.132:5000";
   useEffect(() => {
     // const getData = async () => {
     //   try {

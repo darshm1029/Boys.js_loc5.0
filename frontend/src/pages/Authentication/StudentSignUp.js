@@ -3,6 +3,7 @@ import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import { useState } from "react";
 import {useNavigate} from "react-router";
+import image from "../../assets/j3.gif"
 const StudentSignUp = () => {
 
   const navigate=useNavigate();
@@ -12,7 +13,7 @@ const StudentSignUp = () => {
   const [ firstName, setFirstName ] = useState("");
   const [ lastName, setLastName ] = useState("");
 
-  const url = 'http://localhost:5000';
+  const url = 'http://192.168.220.132:5000';
 
 
   const handleEmailChange = (e) => {
@@ -135,8 +136,8 @@ const StudentSignUp = () => {
       </div>
       <div className="">
         <img
-          className="rounded-full w-10/12"
-          src="images/studentsignup.gif"
+          className="rounded-lg w-10/12"
+          src={image}
           alt="signup"
         />
       </div>

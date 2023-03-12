@@ -166,14 +166,14 @@ const Landing = () => {
           <section class="">
             <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:px-6">
               <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-purple">
+                <h2 class="mb-4 mx-auto text-4xl tracking-tight font-extrabold text-purple">
                   Designed for business teams like yours
                 </h2>
                 {/* <p class="mb-5 font-light text-gray-500 sm:text-xl ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p> */}
               </div>
-              <div class="space-y-8 flex gap-2">
-                {/* 
-                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 bg-purple dark:text-white">
+              <div class="space-y-8 flex gap-2 mx-auto">
+                
+                {/* <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 bg-purple dark:text-white">
                   <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
                   <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                     Best option for personal use & for your next project.
@@ -277,7 +277,7 @@ const Landing = () => {
                   </a>
                 </div> */}
 
-                {/* <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <div class="flex flex-col p-6 mx-auto  text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600  dark:bg-gray-800 dark:text-white">
                   <h3 class="mb-4 text-2xl font-semibold">Company</h3>
                   <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                     Relevant for multiple users, extended & premium support.
@@ -381,7 +381,7 @@ const Landing = () => {
                   </a>
                 </div>
 
-                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <div class="flex flex-col p-6 mx-auto  text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                   <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
                   <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                     Best for large scale uses and extended redistribution
@@ -484,7 +484,7 @@ const Landing = () => {
                   >
                     Get started
                   </a>
-                </div> */}
+                </div>
                 <div class="container">
                   <div class="card">
                     <div class="slide slide1">

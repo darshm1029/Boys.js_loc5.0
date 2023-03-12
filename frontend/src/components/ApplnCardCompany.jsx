@@ -3,7 +3,7 @@ import axios from "axios";
 
 const ApplnCardCompany = ({ jid }) => {
   const [applns, setApplns] = useState({});
-  const url = "http://localhost:5000";
+  const url = "http://192.168.220.132:5000";
   useEffect(() => {
     const getAppln = async() => {
       try {

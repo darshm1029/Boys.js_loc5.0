@@ -14,7 +14,7 @@ const CompanyDashboard = () => {
   const [job, setJob] = useState({});
 
   const navigate =useNavigate();
-  const url = 'http://localhost:5000';
+  const url = 'http://192.168.220.132:5000';
 
   useEffect(() => {
     const getData = async () => {
@@ -73,7 +73,7 @@ const CompanyDashboard = () => {
       <div className="bg-dark w-full min-h-screen h-full flex font-poppins">
         <SideBarCompany selected="Dashboard" />
         <div className="bg-white w-full px-10 pt-4 ml-10 ">
-          <div className="max-w-7xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto ">
             <Header heading="Dashboard" user="Company" />
             <div className="h-1/5 flex my-10 justify-between gap-10">
               <DashboardCards
@@ -110,7 +110,7 @@ const CompanyDashboard = () => {
                   src={CompanyLogo}
                   alt="Company Logo"
                 /> */}
-                <h5 className="pt-10 px-5 text-center  text-[18px]">
+                <h5 className="pt-10 px-20 text-center  text-[18px]">
                 {company ? company.name : 'Company Name not found!.'}
                 </h5>
 
@@ -118,7 +118,7 @@ const CompanyDashboard = () => {
                   <div className="flex justify-left pl-4 pb-2 pt-8">
                     <i className="fa-solid fa-users pt-2" />
                     <div className="pl-4 pr-6 pb-1">
-                      <h2 className="font-bold">{company ? company.noOfEmp : 'No. of employees not found!'}</h2>
+                      <h2 className="font-bold">{company ? company.noOfEmp : '500+'}</h2>
                       <h6 className="text-white text-[12px] font-medium">
                         Employees
                       </h6>
@@ -135,7 +135,7 @@ const CompanyDashboard = () => {
                 <div className="flex pl-4 justify-left pb-10">
                   <i className="fa-solid fa-location-dot pt-2"></i>
                   <div className="pl-4 pb-1">
-                    <h2 className="font-bold">{company ? company.location : 'Location not found!'}</h2>
+                    <h2 className="font-bold">{company ? company.location : 'Mumbai!'}</h2>
                     <h6 className="text-white text-[12px] font-medium ml-1">
                       Location
                     </h6>

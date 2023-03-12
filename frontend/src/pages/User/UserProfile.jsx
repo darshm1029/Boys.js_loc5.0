@@ -15,7 +15,7 @@ export default function Edit(props) {
 
   const [edit, setEdit] = useState({});
 
-  const url = "http://localhost:5000";
+  const url = "http://192.168.220.132:5000";
 
   useEffect(() => {
     const getEdit = async () => {

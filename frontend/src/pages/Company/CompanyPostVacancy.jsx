@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom'
 
 const CompanyPostVacancy = () => {
   const navigate=useNavigate();
-  const url = "http://localhost:5000";
+  const url = "http://192.168.220.132:5000";
   const [jobType, setJobType] = useState("Internship");
   const [title, setTitle] = useState("");
   const [noOfPos, setNoOfPos] = useState("");

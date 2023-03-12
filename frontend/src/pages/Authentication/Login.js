@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import image from "../../assets/j3.gif"
 const Login = () => {
   const navigate = useNavigate();
   const [ email, setEmail ] = useState("");
   const [ password, setPassword ] = useState("");
 
-  const url = 'http://localhost:5000';
+  const url = 'http://192.168.220.132:5000';
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -22,6 +22,7 @@ const Login = () => {
     try {
       const response = await axios.post(`${url}/login`, { email, password });
       if(response.data.studentUser) {
+        console.log(response.data.studentToken);
         localStorage.setItem("token", response.data.studentToken);
         localStorage.setItem("userType", "student");
       } else if(response.data.companyUser) {
@@ -51,7 +52,7 @@ const Login = () => {
     }
   }
   return (
-    <div className="bg-dark w-full h-screen flex text-white justify-evenly items-center font-poppins">
+    <div className="bg-dark w-full h-screen flex text-white justify- items-center  font-poppins">
       <form className="w-1/2 h-11/12 text-center">
         <h1 className="text-4xl font-semibold inline font-poppins">Find the job of </h1>
         <br />
@@ -104,11 +105,11 @@ const Login = () => {
           </div>
         </div>
       </form>
-      <div className="">
+      <div className="items-center justify-center">
         <img
-          className="rounded-full w-10/12"
-          src="images/login.gif"
-          alt="signup"
+          className="rounded-lg w-10/12 items-center"
+          src={image}
+          alt="login"
         />
       </div>
     </div>
