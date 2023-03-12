@@ -108,7 +108,7 @@ const CompanyPostVacancy = () => {
     }
   };
   return (
-    <div className="bg-purple w-full h-fit flex font-poppins">
+    <div className=" w-full flex font-poppins">
       <SideBarCompany selected={`Post Vacancy`} />
       <div className="container bg-white w-full px-10 pt-4 ml-10 flex flex-wrap justify-center items-center">
         <div className="flex flex-col w-1/2 h1/2 py-8">

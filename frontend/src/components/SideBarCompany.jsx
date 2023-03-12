@@ -4,6 +4,7 @@ import { MdHeight, MdPostAdd } from "react-icons/md";
 
 import { AiFillHome, AiFillMessage, AiFillProfile } from "react-icons/ai";
 import { IoExtensionPuzzleSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const SideBarCompany = ({ selected }) => {
   const navs = {
@@ -23,10 +24,12 @@ const SideBarCompany = ({ selected }) => {
     Message: "",
   };
   return (
-    <div className="h-screen w-1/5">
+    <div className="h-screen w-[30%] bg-dark">
       <div className="flex flex-col h-2/3 justify-evenly ml-2">
         {/* <img src={logo} alt="HireIt" className="w-2/3"/> */}
-
+        <h2 className="text-6xl font-bold text-white text-center items-center mx-auto my-2">
+                <Link to="/">HireHub</Link>
+              </h2>
         {Object.keys(navs).map((key, index) => {
           if (key === selected) {
             return (
@@ -42,6 +45,7 @@ const SideBarCompany = ({ selected }) => {
             );
           } else {
             return (
+              
               <div key={index} className="flex items-center ml-2 px-2 ">
                 {navs[key]}
                 <a

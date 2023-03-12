@@ -31,17 +31,17 @@ const ApplicationCompany = ({ jid = '6307bc06997f86d84884ba74'}) => {
 
 console.log(student)
   return (
-    <div className="bg-[#40189D] w-full min-h-screen h-full flex font-main">
+    <div className="bg-white w-full min-h-screen h-full flex font-main">
       <SideBarCompany selected="Applications" />
       <div className=" w-full px-10 pt-4 ml-10">
         <Header heading="Applications" user="Company" />
         <div className="flex justify-left mt-2">
-          <div className="text-sm font-semibold my-4 text-gray-300">
+          <div className="text-sm font-semibold my-4 text-gray-800">
             Showing 'x' Applicants
           </div>
         </div>
         {/* <div className="text-xs text-[#808080]"> Based on your Preferences</div> */}
-        <div className="bg-white rounded-lg items-center ">
+        <div className="bg-dark text-white rounded-lg items-center ">
           <div className=" flex justify-around items-center py-5">
             <div className="text-xl font-bold ">Date Applied</div>
             <div className="text-xl font-bold ">Student Name</div>

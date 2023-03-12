@@ -60,11 +60,11 @@ const UserDashboard = () => {
                               fontWeight="bold"
                               pb="2px"
                             >
-                              Today's Money
+                              Applied Companies
                             </StatLabel>
                             <Flex>
                               <StatNumber fontSize="lg" color="#fff">
-                                $53,000
+                                8
                               </StatNumber>
                               <StatHelpText
                                 alignSelf="flex-end"
@@ -75,7 +75,7 @@ const UserDashboard = () => {
                                 ps="3px"
                                 fontSize="md"
                               >
-                                +55%
+                                
                               </StatHelpText>
                             </Flex>
                           </Stat>
@@ -100,11 +100,11 @@ const UserDashboard = () => {
                               fontWeight="bold"
                               pb="2px"
                             >
-                              Today's Money
+                              Accepted jobs
                             </StatLabel>
                             <Flex>
                               <StatNumber fontSize="lg" color="#fff">
-                                $53,000
+                                3
                               </StatNumber>
                               <StatHelpText
                                 alignSelf="flex-end"
@@ -115,7 +115,7 @@ const UserDashboard = () => {
                                 ps="3px"
                                 fontSize="md"
                               >
-                                +55%
+                                
                               </StatHelpText>
                             </Flex>
                           </Stat>
@@ -144,11 +144,12 @@ const UserDashboard = () => {
               </Heading>
               <div className="flex space-x-6 border-sm">
                 <Card
-                  padding={3}
+                  padding={5}
                   fontFamily="poppins"
                   border="1px"
                   backgroundColor="#000b76"
                   borderRadius="32px"
+                  
                 >
                   <CardHeader>
                     <Heading
@@ -224,7 +225,7 @@ const UserDashboard = () => {
                   </CardBody>
                 </Card>
                 <Card
-                  padding={3}
+                  padding={5}
                   fontFamily="poppins"
                   border="1px"
                   backgroundColor="#000b76"
@@ -304,7 +305,7 @@ const UserDashboard = () => {
                   </CardBody>
                 </Card>
                 <Card
-                  padding={3}
+                  padding={5}
                   fontFamily="poppins"
                   border="1px"
                   backgroundColor="#000b76"

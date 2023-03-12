@@ -6,7 +6,7 @@ const Header = ({ heading, user }) => {
     <div className="flex justify-between my-2">
       <div className="flex items-center">
         <HiMenuAlt1 size="40" color="white"/>
-        <div className="text-2xl ml-4 font-bold text-left text-white">
+        <div className="text-5xl font-bold text-dark">
           <h1>{heading}</h1>
         </div>
       </div>
