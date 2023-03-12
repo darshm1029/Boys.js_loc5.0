@@ -327,17 +327,8 @@ const UserDashboard = () => {
                         >
                           Overview
                         </Heading>
-                        <Text
-                          textColor={"white"}
-                          pt="2"
-                          fontSize="sm"
-                          fontFamily="poppins"
-                        >
-                          As an AI/ML developer, your role would be to design
-                          and build artificial intelligence and machine learning
-                          models that can analyze and learn from large amounts
-                          of data. You would use programming languages such as
-                          Python, Java, or C++ to develop algorithms
+                        <Text  textColor={"white"}  pt="2" fontSize="sm" fontFamily="poppins">
+                        As an AI/ML developer, your role would be to design and build artificial intelligence and machine learning models that can analyze and learn from large amounts of data. You would use programming languages such as Python, Java, or C++ to develop algorithms.
                         </Text>
                       </Box>
                       <Box>
@@ -398,6 +389,13 @@ const UserDashboard = () => {
                         fontFamily="Plus Jakarta Display"
                         borderBottomColor="#56577A"
                       >
+                        Position
+                      </Th>
+                      <Th
+                        color="#000b76"
+                        fontFamily="Plus Jakarta Display"
+                        borderBottomColor="#56577A"
+                      >
                         Date
                       </Th>
                       <Th
@@ -430,19 +428,57 @@ const UserDashboard = () => {
 								);
 							})} */}
                     <DashboardTableRow
-                      name="test"
-                      budget="sahil"
-                      status="sahil1"
-                      progression="test"
+                      name="Parkit"
+                      budget="10/03/2023"
+                      status="https://meet.jit.si/ge67hy"
+                      progression="rejected"
+                      position="Backend Developer"
                       lastItem={true}
                       textColor="black"
                     />
                     <DashboardTableRow
+                      name="Evolfit"
+                      budget="11/03/2023"
+                      status="https://meet.jit.si/g457hy"
+                      progression="under review"
+                      position="AI Developer"
+                      lastItem={true}
+                      textColor="black"
+                    />
+                    <DashboardTableRow
+                      name="Artenal"
+                      budget="28/02/2023"
+                      status="https://meet.jit.si/ge6ghy"
+                      progression="rejected"
+                      position="Frontend Developer"
+                      lastItem={true}
+                      textColor="black"
+                    />
+                    <DashboardTableRow
+                      name="Facefit"
+                      budget="06/03/2023"
+                      status="https://meet.jit.si/ye67hy"
+                      progression="under review"
+                      position="AI Developer"
+                      lastItem={true}
+                      textColor="black"
+                    />
+                    <DashboardTableRow
+                      name="Gymfit"
+                      budget="11/03/2023"
+                      status="https://meet.jit.si/ge6dfy"
+                      progression="accepted"
+                      position="Frontend Developer"
+                      lastItem={true}
+                      textColor="black"
+                    />
+                    {/* <DashboardTableRow
                       name="test"
                       logo="test"
                       members="test"
                       budget="test"
                       progression="test"
+                      position="Backend Developer"
                       lastItem={true}
                     />
                     <DashboardTableRow
@@ -451,6 +487,7 @@ const UserDashboard = () => {
                       members="test"
                       budget="test"
                       progression="test"
+                      position="Backend Developer"
                       lastItem={true}
                     />
                     <DashboardTableRow
@@ -459,40 +496,9 @@ const UserDashboard = () => {
                       members="test"
                       budget="test"
                       progression="test"
+                      position="Backend Developer"
                       lastItem={true}
-                    />
-                    <DashboardTableRow
-                      name="test"
-                      logo="test"
-                      members="test"
-                      budget="test"
-                      progression="test"
-                      lastItem={true}
-                    />
-                    <DashboardTableRow
-                      name="test"
-                      logo="test"
-                      members="test"
-                      budget="test"
-                      progression="test"
-                      lastItem={true}
-                    />
-                    <DashboardTableRow
-                      name="test"
-                      logo="test"
-                      members="test"
-                      budget="test"
-                      progression="test"
-                      lastItem={true}
-                    />
-                    <DashboardTableRow
-                      name="test"
-                      logo="test"
-                      members="test"
-                      budget="test"
-                      progression="test"
-                      lastItem={true}
-                    />
+                    /> */}
                   </Tbody>
                 </Table>
               </div>
