@@ -1,4 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./pages/Authentication/Login";
+import SignupCompany from "./pages/Authentication/SignupCompany";
+import StudentSignUp from "./pages/Authentication/StudentSignUp";
 import ApplicationCompany from "./pages/Company/ApplicationCompany";
 import CompanyDashboard from "./pages/Company/CompanyDashboard";
 import CompanyPostVacancy from "./pages/Company/CompanyPostVacancy";
@@ -24,6 +27,10 @@ function App() {
           <Route path="/companypostvacancy" element={<CompanyPostVacancy/>} />
           <Route path="/applicationcompany" element={<ApplicationCompany/>} />
           <Route path="/scheduledmeetings" element={<ScheduledMeetings/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/signupcompany" element={<SignupCompany/>} />
+          <Route path="/studentsignup" element={<StudentSignUp/>} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
       </Router>
     </>

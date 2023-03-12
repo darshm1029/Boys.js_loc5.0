@@ -84,7 +84,7 @@ const Landing = () => {
               {/* <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 March 2022
               </time> */}
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white hover:text-[#4E31AA]">
+              <h3 class="text-lg font-semibold text-gray-900  hover:text-[#4E31AA]">
                 REGISTER
               </h3>
               <p class="text-base font-normal text-gray-400">
